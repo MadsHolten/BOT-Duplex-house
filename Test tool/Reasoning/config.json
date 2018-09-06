@@ -1,0 +1,39 @@
+{
+    "store": {
+        "endpoint": "http://localhost:5820",
+        "username": "admin",
+        "password": "admin"
+    },
+    "directory": "../../Turtle files",
+    "files": ["BOT.ttl", "Duplex_A.ttl"],
+    "namedGraph": "http://architect.com/projects/17001",
+    "loops": 10,
+    "queries":
+    [
+        {
+            "name": "1. Instances of bot:Zone (bot:Site, bot:Building, bot:Storey and bot:Space instances)", 
+            "query": "PREFIX bot: <https://w3id.org/bot#>\n\nSELECT ?z\nWHERE {\n  GRAPH ?g {\n  \t?z a bot:Zone .\n  }\n}",
+            "reasoning": true,
+            "count": true
+        },
+        {
+            "name": "2. Zones contained in a bot:Storey instance (same results as bot:hasSpace)", 
+            "query": "PREFIX bot:   <https://w3id.org/bot#>\nPREFIX arch:  <http://architect.com/projects/>\nPREFIX props: <https://w3id.org/product/props#>\nPREFIX el:    <https://w3id.org/product/BuildingElements#>\n\nSELECT *\nWHERE {\n\tGRAPH arch:17001 {\n      ?s a bot:Storey ;\n      \tbot:containsZone ?z .\n\t}\n}",
+            "reasoning": true,
+            "count": true
+        },
+        {
+            "name": "3. Zones contained in the bot:Site instance (bot:containsZone is transitive and a super-property of bot:hasBuilding, bot:hasStorey and bot:has:Space)", 
+            "query": "PREFIX bot: <https://w3id.org/bot#>\n\nSELECT ?site ?zone\nWHERE {\n  GRAPH ?g {\n  \t?site a bot:Site ;\n      bot:containsZone ?zone .\n  }\n}",
+            "reasoning": true,
+            "count": true
+        },
+        {
+            "name": "Elements contained in the bot:Site instance (bot:containsZone/bot:hasElement is a property chain axiom)", 
+            "query": "PREFIX bot: <https://w3id.org/bot#>\n\nSELECT ?site ?el\nWHERE {\n  GRAPH ?g {\n  \t?site a bot:Site ;\n      bot:hasElement ?el .\n  }\n}",
+            "reasoning": true,
+            "count": true
+        }
+    ]
+}
+

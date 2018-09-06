@@ -1,0 +1,56 @@
+<div class="button-row">
+
+  <button 
+      *ngFor="let btn of buttons" 
+      mat-raised-button 
+      [disabled]="btn == selectedButton"
+      (click)="switchModule(btn)">
+      {{btn}}
+  </button>
+
+  <!-- Select level -->
+  <mat-form-field class="item" *ngIf="selectedButton == 'ng-plan'">
+    <mat-select placeholder="Select level" (selectionChange)="onLevelChange($event.value)" [(value)]="selectedLevel">
+        <mat-option *ngFor="let level of levels" [value]="level">
+        {{ level.name.value }}
+        </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-radio-group *ngIf="selectedButton != 'ng-plan'" [(ngModel)]="mode3D" (change)="on3DModeChange()">
+    <mat-radio-button class="item" value="1">Spaces</mat-radio-button>
+    <mat-radio-button class="item" value="2">Windows</mat-radio-button>
+    <mat-radio-button class="item" value="3">Elements</mat-radio-button>
+    <mat-radio-button class="item" value="4">Contained in a space</mat-radio-button>
+  </mat-radio-group>
+  
+</div>
+
+<!-- ng-plan module -->
+<ng-plan
+  [hidden]="selectedButton != 'ng-plan'"
+  [data]="data"
+  toolbar="true"
+  (clickedRoom)="roomClick($event)"
+  (clickedCanvas)="canvasClick()"
+  [selected]="selectedSpaces">
+</ng-plan>
+
+<!-- ng-mesh-viewer module -->
+<ng-mesh-viewer
+  [hidden]="selectedButton != 'ng-mesh-viewer'"
+  [showCentroids]="true"
+  (clickedRoom)="log($event)"
+  [data]="data">
+</ng-mesh-viewer>
+
+<!-- Popups -->
+<div *ngIf="query" ngDraggable class="drag-card">
+  <div [innerHTML]="query|MarkdownToHtml"></div>
+  <button mat-raised-button (click)="query = null">Got it!</button>
+</div>
+
+<!-- Message -->
+<div class="msg" *ngIf="msg && showInfo">
+  <p>{{msg}}</p>
+</div>
