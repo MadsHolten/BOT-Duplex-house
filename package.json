@@ -1,0 +1,8 @@
+{
+  "name": "bot-duplex-house",
+  "version": "0.0.1",
+  "scripts": {
+    "publish": "npx ngh --dir=Web-app/dist/bot-browser"
+  },
+  "author": "Mads Holten Rasmussen"
+}
