@@ -126,34 +126,65 @@ export class AppService {
     }
 
     public getAdjElements(spaceURI): Observable<any> {
-        var q = `
+        var q1 = `
         PREFIX bot:    <https://w3id.org/bot#>\n
         PREFIX props:  <https://w3id.org/props#>\n
         PREFIX opm:    <https://w3id.org/opm#>\n
         PREFIX schema: <http://schema.org/>\n
         SELECT ?uri ?name ?geometry\n
         WHERE {\n
-            <${spaceURI}> bot:adjacentElement ?uri .\n
-            ?uri props:identityDataName/opm:hasPropertyState ?ns ;\n
-                bot:hasSimple3DModel ?geometry .\n
-            ?ns a opm:CurrentPropertyState ;\n
-                schema:value ?name .\n
+            <${spaceURI}> bot:adjacentElement ?uri .
+            ?uri props:identityDataName/opm:hasPropertyState ?ns ;
+                bot:hasSimple3DModel ?geometry .
+            ?ns a opm:CurrentPropertyState ;
+                schema:value ?name .
         }`;
 
-        return from(this._loadAndQuery(q))
-                .pipe(
-                    map(data => {
-                        var d = data.map(item => {
-                            return {
-                                name: item.name.value, 
-                                uri: item.uri.value,
-                                geometry: item.geometry.value,
-                                type: "Element"
-                            }
-                        });
-                        return {data: d, query: q};
-                    })
-                );
+        var q2 = `
+        PREFIX bot:    <https://w3id.org/bot#>\n
+        PREFIX props:  <https://w3id.org/props#>\n
+        PREFIX opm:    <https://w3id.org/opm#>\n
+        PREFIX schema: <http://schema.org/>\n
+        SELECT ?name ?geometry\n
+        WHERE {\n
+            <${spaceURI}> props:identityDataName/opm:hasPropertyState ?ns ;
+                bot:hasSimple3DModel ?geometry .
+            ?ns a opm:CurrentPropertyState ;
+                schema:value ?name .
+        }`;
+
+        var results;;
+
+        // First perform q1 to get elements
+        var promise = this._loadAndQuery(q1).then(d => {
+
+            // save results to variable results
+            results = d.map(item => {
+                return {
+                    name: item.name.value, 
+                    uri: item.uri.value,
+                    geometry: item.geometry.value,
+                    type: "Element"
+                }
+            });
+
+            // Then perform q2 to get the zone's geometry
+            return this._loadAndQuery(q2).then(d => {
+
+                // Append result to variable results
+                results.push({
+                    name: d[0].name.value,
+                    uri: spaceURI,
+                    geometry: d[0].geometry.value,
+                    type: "Zone"
+                });
+
+                // Return results and query
+                return {data: results, query: q1};
+            }) 
+        })
+
+        return from(promise);
     }
 
     public getRooms3D(): Observable<any> {

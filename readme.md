@@ -13,6 +13,7 @@ This repository consists of the following:
 
 2) Model files:
     * Revit version of the Common BIM file [Duplex Apartment](https://www.nibs.org/page/bsa_commonbimfiles#project1)
+    * IFC version of the Common BIM file [Duplex Apartment](https://www.nibs.org/page/bsa_commonbimfiles#project1)
     * Converted files from the [Revit-BOT-exporter](https://github.com/MadsHolten/revit-bot-exporter)
 
 3) A web application built on Angular 6 and custom developed libraries [ng-plan](https://www.npmjs.com/package/ng-plan) and [ng-mesh-viewer](https://www.npmjs.com/package/ng-mesh-viewer) for visualizing 2D and 3D geometry. Try the [demo](https://madsholten.github.io/BOT-Duplex-house/).

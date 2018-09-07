@@ -1,0 +1,527 @@
+@prefix props:	<https://w3id.org/props#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bot:	<https://w3id.org/bot#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:		<https://example.org/> .
+@prefix inst:	<http://niras.dk/projects/2.181.00/> .
+
+# WALLTYPES
+inst:Curtain_Wall_Facader
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Curtain Wall (Facader)" .
+inst:Exterior_SW_-_408mm_Combined
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior SW - 408mm Combined" .
+inst:xxx_Exterior_-_408mm_Masonry_%2F_LW_Concrete
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "xxx Exterior - 408mm Masonry / LW Concrete" .
+inst:A-CONC_300_300mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_300_300mm" .
+inst:A-CONC_150_150mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_150_150mm" .
+inst:A-CONC_600_600mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_600_600mm" .
+inst:A-CONC_400_400mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_400_400mm" .
+inst:A-CONC_240_240mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_240_240mm" .
+inst:A-E540D_GYP-INSUL%2FSTL-INSUL_166_25%2F70%2F70_Forsatv%C3%A6g_facade
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E540D_GYP-INSUL/STL-INSUL_166_25/70/70 (Forsatvæg facade)" .
+inst:A-INSUL_300_300mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-INSUL_300_300mm" .
+inst:A-_Mabel__15mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A- Mabel_ 15mm" .
+inst:A-E410R_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_44
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E410R_GYP-INSUL/STL-GYP_120_ 25-70-25mm (44)" .
+inst:A-E510D_GYP-INSUL%2FSTL_95__25-70mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E510D_GYP-INSUL/STL_95_ 25-70mm" .
+inst:A-E210_LWC_120
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E210_LWC_120" .
+inst:A-E220_LWC_150
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E220_LWC_150" .
+inst:A-E420R_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_48
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E420R_GYP-INSUL/STL-GYP_145_25/95/25 (48)" .
+inst:A-E520D_GYP-INSUL%2FSTL_110__40-70mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E520D_GYP-INSUL/STL_110_ 40-70mm" .
+inst:A-CONC_360_360mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_360_360mm" .
+inst:A-CONC_180_180mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_180_180mm" .
+inst:A-CONC_500_500mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_500_500mm" .
+inst:A-E200_LWC-INSUL-CONC_800_100%2F100%2F600
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E200_LWC-INSUL-CONC_800_100/100/600" .
+inst:A-E200_LWC-INSUL-CONC_560_100%2F100%2F360
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E200_LWC-INSUL-CONC_560_100/100/360" .
+inst:A-INSUL-CONC_200-120_320mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-INSUL-CONC_200-120_320mm" .
+inst:Curtain_Wall_bastion
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Curtain Wall_bastion" .
+inst:Curtain_Wall_flex_wall
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Curtain Wall_flex wall" .
+inst:A-LWC-INSUL-CEM_320_100%2F200%2F20
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-LWC-INSUL-CEM_320_100/200/20" .
+inst:A-CONC_700_700mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_700_700mm" .
+inst:A-E422_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25mm_D%C3%A6kforkant
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E422_GYP-INSUL/STL-GYP_145_25/95/25mm (Dækforkant)" .
+inst:A-E221_LWC_INSUL_150_100_50mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E221_LWC_INSUL_150_100_50mm" .
+inst:A-E290_LWC-INSUL-LWC_350_100%2F100%2F150mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E290_LWC-INSUL-LWC_350_100/100/150mm" .
+inst:A-LWC-INSUL-LWC_375_100%2F125%2F150mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-LWC-INSUL-LWC_375_100/125/150mm" .
+inst:A-E200_LWC-INSUL-CONC_440_100%2F100%2F240mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E200_LWC-INSUL-CONC_440_100/100/240mm" .
+inst:Udv._Hegn_20_mm_%C3%85ben
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Udv. Hegn 20 mm Åben" .
+inst:A-CONC_1000_1000mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_1000_1000mm" .
+inst:A-E511_GYP-STL_95__25-70mm_WC
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E511_GYP-STL_95_ 25-70mm (WC)" .
+inst:A-CONC_480_480mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-CONC_480_480mm" .
+inst:A-E421_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_Sk%C3%B8rte_til_v%C3%A6g
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E421_GYP-INSUL/STL-GYP_145_25/95/25 (Skørte til væg)" .
+inst:A-E420_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_ISP%2BUden_rille
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E420_GYP-INSUL/STL-GYP_145_25/95/25 (ISP+Uden rille)" .
+inst:A-E410_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_ISP_%2B_Uden_rille
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E410_GYP-INSUL/STL-GYP_120_ 25-70-25mm (ISP) + (Uden rille)" .
+inst:A-E411_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_Sk%C3%B8rte_til_v%C3%A6g
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E411_GYP-INSUL/STL-GYP_120_ 25-70-25mm (Skørte til væg)" .
+inst:A-E421_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_Alm._Sk%C3%B8rte
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E421_GYP-INSUL/STL-GYP_145_25/95/25 (Alm. Skørte)" .
+inst:A-AL-STL-GYP-INSUL%2FSTL-MMB-INSUL%2FSTL-GYP_300_25%2F25%2F10%2F145%2F70%2F25
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-AL-STL-GYP-INSUL/STL-MMB-INSUL/STL-GYP_300_25/25/10/145/70/25" .
+inst:A-E530D_GYP-INSUL%2FSTL_170__25-145mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E530D_GYP-INSUL/STL_170_ 25-145mm" .
+inst:A-AL-WD_170_20%2F150mm_Udv._Lukket_Hegn
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-AL-WD_170_20/150mm Udv. Lukket Hegn" .
+inst:Udv._Hegn_20_mm_Lukket
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Udv. Hegn 20 mm Lukket" .
+inst:A-E990_GYP-STL-INSUL-STL-GYPSTAIRS_150_25%2F25%2F50%2F25%2F25
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E990_GYP-STL-INSUL-STL-GYP(STAIRS)_150_25/25/50/25/25" .
+inst:Bruseniche_Bad
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Bruseniche Bad" .
+inst:A-E430D_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_52
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E430D_GYP-INSUL/STL-GYP_145_25/95/25 (52)" .
+inst:A-E450D_GYP-INSUL%2FSTL-AIR-INSUL%2FSTL-GYP_300_25%2F120%2F10%2F120%2F25_60
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E450D_GYP-INSUL/STL-AIR-INSUL/STL-GYP_300_25/120/10/120/25 (60)" .
+inst:A_ved_skydeport_-01_til_-02_-_100mm_2
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A_ved skydeport -01 til -02 - 100mm 2" .
+inst:A-E412_GYP-STL-GYP_120__25-70-25mm_Toiletter_og_omkl%C3%A6dning
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E412_GYP-STL-GYP_120_ 25-70-25mm (Toiletter og omklædning)" .
+inst:A-E440R_GYP-INSUL%2FSTL-AIR-INSUL%2FSTL-GYP_255_25%2F70%2F65%2F70%2F25_60_Brandskab
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E440R_GYP-INSUL/STL-AIR-INSUL/STL-GYP_255_25/70/65/70/25 (60) (Brandskab)" .
+inst:A-G%C3%85RDHAVE_-_100mm_2
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-GÅRDHAVE - 100mm 2" .
+inst:A-ASPH-CEM-STEL%2FINSUL_215_xx%2F20%2F195mm_Under_glas_facader
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-ASPH-CEM-STEL/INSUL_215_xx/20/195mm (Under glas facader)" .
+inst:A-E430_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_52_ISP
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E430_GYP-INSUL/STL-GYP_145_25/95/25 (52) (ISP)" .
+inst:A-E431_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_52_Sk%C3%B8rte_til_v%C3%A6g
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E431_GYP-INSUL/STL-GYP_145_25/95/25 (52) (Skørte til væg)" .
+inst:A-E590D_GYP-INSUL%2FSTL_70__25-45mm_D%C3%A6kforkant
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E590D_GYP-INSUL/STL_70_ 25-45mm (Dækforkant)" .
+inst:A-E420D_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_48_Til_d%C3%A6k
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E420D_GYP-INSUL/STL-GYP_145_25/95/25 (48) (Til dæk)" .
+inst:A-E551_GYP-STL-AIR-INSUL%2FSTL_463_25%2F70%2F138%2F140_Forsatv%C3%A6g_facade-over_vindue
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E551_GYP-STL-AIR-INSUL/STL_463_25/70/138/140 (Forsatvæg facade-over vindue)" .
+inst:A-E551_GYP-STL-AIR-INSUL%2FSTL_298_25%2F70%2F138%2F140_Forsatv%C3%A6g_facade-over_vindue_foran_gipsv%C3%A6g
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E551_GYP-STL-AIR-INSUL/STL_298_25/70/138/140 (Forsatvæg facade-over vindue_foran gipsvæg)" .
+inst:A-E552_GYP-STL-AIR-INSUL%2FSTL_583_25%2F70%2F348%2F140_Forsatv%C3%A6g_facade-over_vindue_DYB
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E552_GYP-STL-AIR-INSUL/STL_583_25/70/348/140 (Forsatvæg facade-over vindue_DYB)" .
+inst:A-E554_WD--STL-AIR-INSUL%2FSTL_463_40%2F70%2F123%2F140_Forsatv%C3%A6g_facade_V._GR%C3%98FT
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E554_WD--STL-AIR-INSUL/STL_463_40/70/123/140 (Forsatvæg facade V. GRØFT)" .
+inst:A-E411_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_Alm._Sk%C3%B8rte
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E411_GYP-INSUL/STL-GYP_120_ 25-70-25mm (Alm. Skørte)" .
+inst:A-E551_GYP-STL-AIR-INSUL%2FSTL_320_25%2F70%2F225%2F_Forsatv%C3%A6g_facade-over_vindue_foran_betonv%C3%A6g
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E551_GYP-STL-AIR-INSUL/STL_320_25/70/225/ (Forsatvæg facade-over vindue_foran betonvæg)" .
+inst:A-E553_GYP-STL-AIR-INSUL%2FSTL_633_25%2F70%2F398%2F140_Forsatv%C3%A6g_facade-over_vindue_EKSTRA-DYB
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E553_GYP-STL-AIR-INSUL/STL_633_25/70/398/140 (Forsatvæg facade-over vindue_EKSTRA-DYB)" .
+inst:A-A852A1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A852A1_Interior_ALU-GLZ (windows)" .
+inst:A-A812A6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A812A6_Interior_ALU-GLZ (windows)" .
+inst:A-A811F3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811F3_Interior_ALU-GLZ (windows)" .
+inst:A-E911_AL-INSUL-AL_130_25-80-25mm_K%C3%B8l_EI60
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E911_AL-INSUL-AL_130_25-80-25mm (Køl) (EI60)" .
+inst:A-E900_AL-INSUL-AL_150_25-100-25mm_Frys
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E900_AL-INSUL-AL_150_25-100-25mm (Frys)" .
+inst:A-E910_AL-INSUL-AL_100_25-50-25mm_K%C3%B8l
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E910_AL-INSUL-AL_100_25-50-25mm (Køl)" .
+inst:A-E413R_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_44_V%C3%A5drum_AA%2FHH
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E413R_GYP-INSUL/STL-GYP_120_ 25-70-25mm (44) (Vådrum) (AA/HH)" .
+inst:A-E521D_GYP-INSUL%2FSTL_110__40-70mm_V%C3%A5drum_-%2FHHH
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E521D_GYP-INSUL/STL_110_ 40-70mm (Vådrum) (-/HHH)" .
+inst:A-E541D_GYP-INSUL%2FSTL-INSUL_166_25%2F70%2F70_Forsatv%C3%A6g_facade_V%C3%A5drum_-%2FHH
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E541D_GYP-INSUL/STL-INSUL_166_25/70/70 (Forsatvæg facade) (Vådrum) (-/HH)" .
+inst:A-E415_GYP-STL-GYP_120__25-70-25mm_Toiletter_og_omkl%C3%A6dning_V%C3%A5drum_AA%2FHH
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E415_GYP-STL-GYP_120_ 25-70-25mm (Toiletter og omklædning) (Vådrum) (AA/HH)" .
+inst:A-E423R_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_48_V%C3%A5drum_AA%2FHH
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E423R_GYP-INSUL/STL-GYP_145_25/95/25 (48) (Vådrum) (AA/HH)" .
+inst:A-E416VV_GYP-STL-GYP_120__25-70-25mm_Toiletter_og_omkl%C3%A6dning_K%C3%B8kken_V%C3%A5drum_HH%2FHH
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E416VV_GYP-STL-GYP_120_ 25-70-25mm (Toiletter og omklædning) (Køkken) (Vådrum) (HH/HH)" .
+inst:A-A811I1_Interior_ALU-GLZ
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811I1_Interior_ALU-GLZ" .
+inst:A-A811J1_Interior_ALU-GLZ
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811J1_Interior_ALU-GLZ" .
+inst:A-A852A8_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A852A8_Interior_ALU-GLZ (windows)" .
+inst:A-A832A2_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A832A2_Interior_ALU-GLZ (windows)" .
+inst:A-A811D1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811D1_Interior_ALU-GLZ (windows)" .
+inst:A-A811D2_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811D2_Interior_ALU-GLZ (windows)" .
+inst:ovenlys_SK%C3%98RTER
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "ovenlys SKØRTER" .
+inst:A-LWC-STL-STL_190_150%2F25%2F20mm_Hegn_Lukket_LECA
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-LWC-STL-STL_190_150/25/20mm Hegn (Lukket) (LECA)" .
+inst:A-LWC_150_150_UDV_LECA
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-LWC_150_150 (UDV) (LECA)" .
+inst:A-A811D4_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811D4_Interior_ALU-GLZ (windows)" .
+inst:A-A811D3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811D3_Interior_ALU-GLZ (windows)" .
+inst:A-A862D2_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A862D2_Interior_ALU-GLZ (windows)" .
+inst:A-A811B2_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811B2_Interior_ALU-GLZ (windows)" .
+inst:A-A811B3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811B3_Interior_ALU-GLZ (windows)" .
+inst:A-AL-STL-CEM-STL%2FINSUL-STL%2FINSUL-STL-GYP_415_20%2F25%2F20%2F150%2F175_70_%2F25_glastag
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-AL-STL-CEM-STL/INSUL-STL/INSUL-STL-GYP_415_20/25/20/150/175 (70) /25 (glastag)" .
+inst:A-AL-STL-CEM-STL%2FINSUL-STL%2FINSUL-STL-GYP_315_20%2F25%2F20%2F150%2F75%2F25_glastag
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-AL-STL-CEM-STL/INSUL-STL/INSUL-STL-GYP_315_20/25/20/150/75/25 (glastag)" .
+inst:A-E610_STL-INSUL_AIR_75_25%2F40%2F10mm_Akustik_med_trapez
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E610_STL-INSUL_AIR_75_25/40/10mm (Akustik med trapez)" .
+inst:A-AL-STL-CEM-STL%2FINSUL_215_20%2F25%2F20%2F150Glastag_ved_elevator
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-AL-STL-CEM-STL/INSUL_215_20/25/20/150(Glastag ved elevator)" .
+inst:A-A827A5_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A827A5_Interior_ALU-GLZ (windows)" .
+inst:A-A834F3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A834F3_Interior_ALU-GLZ (windows)" .
+inst:A-A832F3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A832F3_Interior_ALU-GLZ (windows)" .
+inst:A-A831H1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A831H1_Interior_ALU-GLZ (windows)" .
+inst:A-A831F4_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A831F4_Interior_ALU-GLZ (windows)" .
+inst:A-A831F5_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A831F5_Interior_ALU-GLZ (windows)" .
+inst:A-A842A11_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842A11_Interior_ALU-GLZ (windows)" .
+inst:A-A842A6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842A6_Interior_ALU-GLZ (windows)" .
+inst:A-A832A1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A832A1_Interior_ALU-GLZ (windows)" .
+inst:A-A842D6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842D6_Interior_ALU-GLZ (windows)" .
+inst:A-A844D6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A844D6_Interior_ALU-GLZ (windows)" .
+inst:A-A844D3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A844D3_Interior_ALU-GLZ (windows)" .
+inst:A-A842D3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842D3_Interior_ALU-GLZ (windows)" .
+inst:A-A832A3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A832A3_Interior_ALU-GLZ (windows)" .
+inst:A-A847A1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A847A1_Interior_ALU-GLZ (windows)" .
+inst:A-A831A4_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A831A4_Interior_ALU-GLZ (windows)" .
+inst:A-A844A5_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A844A5_Interior_ALU-GLZ (windows)" .
+inst:A-A842A5_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842A5_Interior_ALU-GLZ (windows)" .
+inst:A-A842G3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842G3_Interior_ALU-GLZ (windows)" .
+inst:A-A842A3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842A3_Interior_ALU-GLZ (windows)" .
+inst:A-A842A1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842A1_Interior_ALU-GLZ (windows)" .
+inst:A-A821A1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A821A1_Interior_ALU-GLZ (windows)" .
+inst:A-A822A1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A822A1_Interior_ALU-GLZ (windows)" .
+inst:A-A821A8_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A821A8_Interior_ALU-GLZ (windows)" .
+inst:A-E412R_GYP-STL-GYP_120__25-70-25mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E412R_GYP-STL-GYP_120_ 25-70-25mm" .
+inst:A-A842D2_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842D2_Interior_ALU-GLZ (windows)" .
+inst:A-A842G4_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842G4_Interior_ALU-GLZ (windows)" .
+inst:A-A832A8_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A832A8_Interior_ALU-GLZ (windows)" .
+inst:A-A842B2_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842B2_Interior_ALU-GLZ (windows)" .
+inst:A-A842B4_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842B4_Interior_ALU-GLZ (windows)" .
+inst:A-A832A7_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A832A7_Interior_ALU-GLZ (windows)" .
+inst:A-A822A7_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A822A7_Interior_ALU-GLZ (windows)" .
+inst:A-A822A3_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A822A3_Interior_ALU-GLZ (windows)" .
+inst:A-A832A6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A832A6_Interior_ALU-GLZ (windows)" .
+inst:A-A831F6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A831F6_Interior_ALU-GLZ (windows)" .
+inst:A-A844A6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A844A6_Interior_ALU-GLZ (windows)" .
+inst:A-A842A9_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A842A9_Interior_ALU-GLZ (windows)" .
+inst:A-A844D5_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A844D5_Interior_ALU-GLZ (windows)" .
+inst:A-A814G5_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A814G5_Interior_ALU-GLZ (windows)" .
+inst:A-A844G5_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A844G5_Interior_ALU-GLZ (windows)" .
+inst:A-A814A6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A814A6_Interior_ALU-GLZ (windows)" .
+inst:A-A814A5_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A814A5_Interior_ALU-GLZ (windows)" .
+inst:A-A844G4_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A844G4_Interior_ALU-GLZ (windows)" .
+inst:A-LWC-INSUL-CEM_260_100%2F140%2F20
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-LWC-INSUL-CEM_260_100/140/20" .
+inst:A-E200_LWC_INSUL_200_100_100mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E200_LWC_INSUL_200_100_100mm" .
+inst:A-E620_STL-WD_AIR_50_20%2F21%2F9mm_Akustik_med_trapez
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E620_STL-WD_AIR_50_20/21/9mm (Akustik med trapez)" .
+inst:Lamelrist
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Lamelrist" .
+inst:Curtain_Wall_Overd%C3%A6kning
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Curtain Wall (Overdækning)" .
+inst:A-E100_lydabsorberende_1200
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E100_lydabsorberende (1200)" .
+inst:A-T833A1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-T833A1_Interior_ALU-GLZ (windows)" .
+inst:A-E410R_GYP-INSUL%2FSTL-GYP_170__25-120-25mm_44
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E410R_GYP-INSUL/STL-GYP_170_ 25-120-25mm (44)" .
+inst:A-E104_lydabsorbent_med_lameller
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E104_lydabsorbent med lameller" .
+inst:A-A811B1_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-A811B1_Interior_ALU-GLZ (windows)" .
+inst:A-T842A6_Interior_ALU-GLZ_windows
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-T842A6_Interior_ALU-GLZ (windows)" .
+inst:A-E430R_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_52_Rille
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E430R_GYP-INSUL/STL-GYP_145_25/95/25 (52) (Rille)" .
+inst:A-E520_GYP-INSUL%2FSTL_110__40-70mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E520_GYP-INSUL/STL_110_ 40-70mm" .
+inst:A-E420D_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_48_Til_d%C3%A6k_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E420D_GYP-INSUL/STL-GYP_145_25/95/25 (48) (Til dæk) (teleskop)" .
+inst:A-E412_GYP-STL-GYP_120__25-70-25mm_Toiletter_og_omkl%C3%A6dning_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E412_GYP-STL-GYP_120_ 25-70-25mm (Toiletter og omklædning) (fast)" .
+inst:A-E520_GYP-INSUL%2FSTL_110__40-70mm_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E520_GYP-INSUL/STL_110_ 40-70mm (fast)" .
+inst:A-E420_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_ISP%2BUden_rille_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E420_GYP-INSUL/STL-GYP_145_25/95/25 (ISP+Uden rille) (fast)" .
+inst:A-E410R_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_44_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E410R_GYP-INSUL/STL-GYP_120_ 25-70-25mm (44) (teleskop)" .
+inst:A-E410_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_ISP_%2B_Uden_rille_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E410_GYP-INSUL/STL-GYP_120_ 25-70-25mm (ISP) + (Uden rille) (teleskop)" .
+inst:A-E411_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_Sk%C3%B8rte_til_v%C3%A6g_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E411_GYP-INSUL/STL-GYP_120_ 25-70-25mm (Skørte til væg) (teleskop)" .
+inst:A-E430D_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_52_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E430D_GYP-INSUL/STL-GYP_145_25/95/25 (52) (teleskop)" .
+inst:A-E410R_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_44_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E410R_GYP-INSUL/STL-GYP_120_ 25-70-25mm (44) (fast)" .
+inst:A-E410D_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_44_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E410D_GYP-INSUL/STL-GYP_120_ 25-70-25mm (44) (teleskop)" .
+inst:A-E440D_GYP-INSUL%2FSTL-AIR-INSUL%2FSTL-GYP_255_25%2F70%2F65%2F70%2F25_60_Brandskab_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E440D_GYP-INSUL/STL-AIR-INSUL/STL-GYP_255_25/70/65/70/25 (60) (Brandskab) (teleskop)" .
+inst:A-E420_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_ISP%2BUden_rille_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E420_GYP-INSUL/STL-GYP_145_25/95/25 (ISP+Uden rille) (teleskop)" .
+inst:A-E440R_GYP-INSUL%2FSTL-AIR-INSUL%2FSTL-GYP_255_25%2F70%2F65%2F70%2F25_60_Brandskab_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E440R_GYP-INSUL/STL-AIR-INSUL/STL-GYP_255_25/70/65/70/25 (60) (Brandskab) (teleskop)" .
+inst:A-E420R_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_48_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E420R_GYP-INSUL/STL-GYP_145_25/95/25 (48) (fast)" .
+inst:A-E410_GYP-INSUL%2FSTL-GYP_120__25-70-25mm_44_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E410_GYP-INSUL/STL-GYP_120_ 25-70-25mm (44) (fast)" .
+inst:A-E510_GYP-INSUL%2FSTL_95__25-70mm_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E510_GYP-INSUL/STL_95_ 25-70mm (fast)" .
+inst:A-E440R_GYP-INSUL%2FSTL-AIR-INSUL%2FSTL-GYP_255_25%2F70%2F65%2F70%2F25_60_Brandskab_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E440R_GYP-INSUL/STL-AIR-INSUL/STL-GYP_255_25/70/65/70/25 (60) (Brandskab) (fast)" .
+inst:A-E521_GYP-INSUL%2FSTL_110__40-70mm_V%C3%A5drum_-%2FHHH_2_fast
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E521_GYP-INSUL/STL_110_ 40-70mm (Vådrum) (-/HHH) 2 (fast)" .
+inst:A-E450R_GYP-INSUL%2FSTL-AIR-INSUL%2FSTL-GYP_300_25%2F120%2F10%2F120%2F25_60_rille
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E450R_GYP-INSUL/STL-AIR-INSUL/STL-GYP_300_25/120/10/120/25 (60) (rille)" .
+inst:A-E530R_GYP-INSUL%2FSTL_170__25-145mm_rille
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E530R_GYP-INSUL/STL_170_ 25-145mm (rille)" .
+inst:A-E421_GYP-INSUL%2FSTL-GYP_145_25%2F95%2F25_Alm._Sk%C3%B8rte_teleskop
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "A-E421_GYP-INSUL/STL-GYP_145_25/95/25 (Alm. Skørte) (teleskop)" .
+inst:KIPO_55mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "KIPO 55mm" .

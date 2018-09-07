@@ -1,0 +1,176 @@
+@prefix props:	<https://w3id.org/props#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bot:	<https://w3id.org/bot#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:		<https://example.org/> .
+@prefix inst:	<https://niras.dk/projects/072/> .
+
+# WALLTYPES
+inst:Alu_glas_facade_system
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Alu glas facade system" .
+inst:Exterior_SW_-_408mm_Combined
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior SW - 408mm Combined" .
+inst:Exterior_-_408mm_Masonry_%2F_LW_Concrete
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - 408mm Masonry / LW Concrete" .
+inst:Exterior_-_360mm_Wood_Siding_%2F_LW_Concrete
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - 360mm Wood Siding / LW Concrete" .
+inst:Facadeelement_med_betonbagmur_-_400mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Facadeelement med betonbagmur - 400mm" .
+inst:Facadeelement_-_350mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Facadeelement - 350mm" .
+inst:RTS_Interior_-_200_mm_Concrete
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 200 mm Concrete" .
+inst:K%C3%A6lderv%C3%A6g_-_450mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Kældervæg - 450mm" .
+inst:Sokkel_-_650mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Sokkel - 650mm" .
+inst:Taghus_-_50mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Taghus - 50mm" .
+inst:RTS_Interior_-_120_mm_Drywall_25%2F70%2F25_cc300
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 120 mm Drywall (25/70/25) cc300" .
+inst:Facadeelement_med_betonskakt_bag_-_250mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Facadeelement med betonskakt bag - 250mm" .
+inst:Fast_Parti_Alufacade_St%C3%A5lplade_-_243mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Fast Parti Alufacade Stålplade - 243mm" .
+inst:RTS_Interior_-_120mm_Drywall_25%2F70%2F25_-_sk%C3%B8rt_over_glasv%C3%A6gge
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 120mm Drywall (25/70/25) - skørt over glasvægge" .
+inst:RTS_Interior_-_120mm_Drywall_25%2F95_Robust_48_dB
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 120mm Drywall (25/95) Robust 48 dB" .
+inst:RTS_Interior_-_145mm_Drywall_25%2F95%2F25_48_dB_Robust
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 145mm Drywall (25/95/25) 48 dB Robust" .
+inst:RTS_Interior_-_95_mm_Drywall_25%2F70_-_sk%C3%B8rt_ved_nedh%C3%A6ngt_loft
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 95 mm Drywall (25/70) - skørt ved nedhængt loft" .
+inst:RTS_Interior_-_133_mm_Drywall_38%2F95
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 133 mm Drywall (38/95)" .
+inst:Vindfang_-_120mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Vindfang - 120mm" .
+inst:Curtain_wall_hj%C3%B8rne_I-laminated%2Ftempered_O-laminated%2Ftempered
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Curtain wall hjørne_I-laminated/tempered_O-laminated/tempered" .
+inst:Curtain_wall_hj%C3%B8rne_I-no_safety_glass_O-no_safety_glass
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Curtain wall hjørne_I-no safety glass_O-no safety glass" .
+inst:Curtain_wall_hj%C3%B8rne_I-laminated_O-no_safety_glass
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Curtain wall hjørne_I-laminated_O-no safety glass" .
+inst:Murkrone_Nordfacade_120mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Murkrone Nordfacade 120mm" .
+inst:Murkrone_Gavlfacade__St%C3%A5lplade_400mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Murkrone Gavlfacade  Stålplade 400mm" .
+inst:Murkrone_Sydfacade_St%C3%A5lplade
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Murkrone Sydfacade Stålplade" .
+inst:RTS_Interior_-_145mm_Drywall_25%2F95%2F25_44_dB_Robust
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 145mm Drywall (25/95/25) 44 dB Robust" .
+inst:RTS_Interior_-_145mm_Drywall_25%2F95%2F25_-_sk%C3%B8rt_over_krydsfinerv%C3%A6gge
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 145mm Drywall (25/95/25) - skørt over krydsfinervægge" .
+inst:St%C3%B8ttemur_-_350mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Støttemur - 350mm" .
+inst:Fast_Parti_Alufacade_St%C3%A5lplade_Top_-_243mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Fast Parti Alufacade Stålplade Top - 243mm" .
+inst:RTS_Interior_-_150mm_LW_Concrete
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 150mm LW Concrete" .
+inst:Fast_Parti_Alufacade_Ingen_Bekl%C3%A6dning_-_200mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Fast Parti Alufacade Ingen Beklædning - 200mm" .
+inst:RTS_Interior_-_133mm_Drywall_13%2F95%2F25_48_dB
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 133mm Drywall (13/95/25) 48 dB" .
+inst:RTS_Interior_-_120mm_Drywall_25%2F95_Robust
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 120mm Drywall (25/95) Robust" .
+inst:Interior_Glass_Wall_49_dB
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior Glass Wall 49 dB" .
+inst:RTS_Interior_-_70_mm_Drywall_25%2F45_cc300
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 70 mm Drywall (25/45) cc300" .
+inst:RTS_Interior_-_145mm_Drywall_25%2F95%2F25_48_dB_Sk%C3%B8rt_over_nedh%C3%A6ngt_loft
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 145mm Drywall (25/95/25) 48 dB Skørt over nedhængt loft" .
+inst:RTS_Interior_-_45mm_-_opbygning_af_ramper
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 45mm - opbygning af ramper" .
+inst:RTS_Interior_-_25mm_-_Ramme_til_trin_og_ramper
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 25mm - Ramme til trin og ramper" .
+inst:Vindfang_-_35mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Vindfang - 35mm" .
+inst:Interior_Glass_Wall_39_dB_E30
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior Glass Wall 39 dB E30" .
+inst:RTS_Interior_-_107_mm_Drywall_Constructin_With_Carboard_95
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 107 mm Drywall Constructin With Carboard (95)" .
+inst:RTS_Interior_-_12.5mm_-_Kalsiumsilikatplade
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 12.5mm - Kalsiumsilikatplade" .
+inst:RTS_Interior_-_15mm_-_Kalsiumsilikatplade
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 15mm - Kalsiumsilikatplade" .
+inst:RTS_Interior_-_40_mm_Drywall_25%2F15
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 40 mm Drywall (25/15)" .
+inst:Fast_Parti_Alufacade_St%C3%A5lplade_-_300mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Fast Parti Alufacade Stålplade - 300mm" .
+inst:Interior_Glass_Wall
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior Glass Wall" .
+inst:RTS_Interior_-_20mm_-_V%C3%A6g_i_multirum%2C_Podie
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 20mm - Væg i multirum, Podie" .
+inst:RTS_Interior_-_25_mm_Drywall_25
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 25 mm Drywall (25)" .
+inst:RTS_Interior_-_138mm_Inventarv%C3%A6g_18%2F120
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 138mm Inventarvæg (18/120)" .
+inst:1_Udvendigt_st%C3%A5l_gel%C3%A6nder
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "1 Udvendigt stål gelænder" .
+inst:2_Mellemrum_til_ramme_i_udvendigt_st%C3%A5l_gel%C3%A6nder
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "2 Mellemrum til ramme i udvendigt stål gelænder" .
+inst:3_Ramme_i_udvendigt_st%C3%A5l_gel%C3%A6nder
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "3 Ramme i udvendigt stål gelænder" .
+inst:RTS_Interior_-_58_mm_Drywall_13%2F45_Acoustic
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 58 mm Drywall (13/45) Acoustic" .
+inst:Interior_Glass_Wall_39_dB
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior Glass Wall 39 dB" .
+inst:RTS_Interior_-_195mm_Drywall_25%2F145%2F25_44_dB_Robust
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 195mm Drywall (25/145/25) 44 dB Robust" .
+inst:RTS_Interior_-_170mm_Drywall_25%2F1205%2F25_48_dB_Sk%C3%B8rt
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "RTS Interior - 170mm Drywall (25/1205/25) 48 dB Skørt" .

@@ -1,5 +1,5 @@
 @prefix bot:	<https://w3id.org/bot#> .
-@prefix inst:	<https://some-architect.com/projects/001/> .
+@prefix inst:	<https://172.16.10.122:8080/projects/1001/> .
 @prefix geo:	<http://www.opengis.net/ont/geosparql#> .
 @prefix props:	<https://w3id.org/props#> .
 

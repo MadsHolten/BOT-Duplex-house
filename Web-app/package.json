@@ -5,11 +5,10 @@
     "ng": "ng",
     "postinstall": "node patch.js",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href \"https://madsholten.github.io/BOT-Duplex-house/\"",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "publish": "ng build --prod --base-href \"https://madsholten.github.io/BOT-Duplex-house/\" && npx ngh --dir=dist/bot-browser"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {

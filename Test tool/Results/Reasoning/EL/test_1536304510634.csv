@@ -1,0 +1,7 @@
+Profile: EL
+"1. Instances of bot:Zone (bot:Site, bot:Building, bot:Storey and bot:Space instances)", "0.03749999999999999"
+"2. Zones contained in a bot:Storey instance (same results as bot:hasSpace)", "0.0131"
+"3. Zones contained in the bot:Site instance (bot:containsZone is transitive and a super-property of bot:hasBuilding, bot:hasStorey and bot:has:Space)", "0.0106"
+"4. Elements contained in the bot:Site instance (bot:containsZone/bot:containsElement is a property chain axiom)", "0.015500000000000003"
+"5. Elements contained in the bot:Site instance (bot:containsZone/bot:hasElement is a property chain axiom)", "0.028700000000000003"
+"6. Wall widths inherited from their type", "0.010999999999999998"

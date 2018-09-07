@@ -1,4 +1,5 @@
 @prefix prod:	<https://w3id.org/product#> .
+@prefix inst:	<https://172.16.10.122:8080/projects/1001/> .
 
 inst:wall_1xS3BCk291UvhgP2dvNtzh a prod:Wall .
 inst:wall_1xS3BCk291UvhgP2dvNt_8 a prod:Wall .

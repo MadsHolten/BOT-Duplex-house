@@ -1,4 +1,0 @@
-"1. Instances of bot:Zone (bot:Site, bot:Building, bot:Storey and bot:Space instances)", "0.0643"
-"2. Zones contained in a bot:Storey instance (same results as bot:hasSpace)", "0.0203"
-"3. Zones contained in the bot:Site instance (bot:containsZone is transitive and a super-property of bot:hasBuilding, bot:hasStorey and bot:has:Space)", "0.014600000000000002"
-"Elements contained in the bot:Site instance (bot:containsZone/bot:hasElement is a property chain axiom)", "0.04289999999999999"
