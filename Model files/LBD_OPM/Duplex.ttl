@@ -1,0 +1,1018 @@
+@prefix bot:	<https://w3id.org/bot#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rvt:	<https://example.org/rvt#> .
+@prefix inst:	<https://172.16.10.122:8080/projects/1001/> .
+
+### SITE ###
+inst:site_1 a bot:Site ;
+	bot:hasBuilding inst:building_1 .
+
+### BUILDING ###
+inst:building_1 a bot:Building .
+inst:building_1 bot:hasStorey inst:level_1xS3BCk291UvhgP2dvNMKI .
+inst:building_1 bot:hasStorey inst:level_1xS3BCk291UvhgP2dvNMQJ .
+inst:building_1 bot:hasStorey inst:level_1xS3BCk291UvhgP2dvNsgp .
+inst:building_1 bot:hasStorey inst:level_1xS3BCk291UvhgP2dvNtSE .
+
+### ELEMENTS ###
+
+# WALLS
+inst:wall_1xS3BCk291UvhgP2dvNtzh
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "138062" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00021b4e" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNtzh" .
+inst:wall_1xS3BCk291UvhgP2dvNt_8
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "138157" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00021bad" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNt_8" .
+inst:wall_1xS3BCk291UvhgP2dvNt%24O
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "138237" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00021bfd" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNt$O" .
+inst:wall_1xS3BCk291UvhgP2dvNtXZ
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "138310" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00021c46" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNtXZ" .
+inst:wall_1xS3BCk291UvhgP2dvNtbz
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "138584" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00021d58" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNtbz" .
+inst:wall_1xS3BCk291UvhgP2dvNtkY
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "139143" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00021f87" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNtkY" .
+inst:wall_1xS3BCk291UvhgP2dvNtl7
+	a bot:Element , inst:Party_Wall_-_CMU_Residential_Unit_Dimising_Wall ;
+	rvt:id "139234" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00021fe2" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNtl7" .
+inst:wall_1xS3BCk291UvhgP2dvNqHs
+	a bot:Element , inst:Party_Wall_-_CMU_Residential_Unit_Dimising_Wall ;
+	rvt:id "139347" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00022053" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqHs" .
+inst:wall_1xS3BCk291UvhgP2dvNqHB
+	a bot:Element , inst:Party_Wall_-_CMU_Residential_Unit_Dimising_Wall ;
+	rvt:id "139374" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-0002206e" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqHB" .
+inst:wall_1xS3BCk291UvhgP2dvNqM7
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "139682" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000221a2" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqM7" .
+inst:wall_1xS3BCk291UvhgP2dvNqOY
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "139783" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00022207" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqOY" .
+inst:wall_1xS3BCk291UvhgP2dvNqQ6
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "139939" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000222a3" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqQ6" .
+inst:wall_1xS3BCk291UvhgP2dvNq2Q
+	a bot:Element , inst:Foundation_-_Concrete_417mm ;
+	rvt:id "140479" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000224bf" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNq2Q" .
+inst:wall_1xS3BCk291UvhgP2dvNq3D
+	a bot:Element , inst:Foundation_-_Concrete_417mm ;
+	rvt:id "140520" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000224e8" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNq3D" .
+inst:wall_1xS3BCk291UvhgP2dvNq4l
+	a bot:Element , inst:Foundation_-_Concrete_417mm ;
+	rvt:id "140554" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-0002250a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNq4l" .
+inst:wall_1xS3BCk291UvhgP2dvNq4V
+	a bot:Element , inst:Foundation_-_Concrete_417mm ;
+	rvt:id "140602" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-0002253a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNq4V" .
+inst:wall_1xS3BCk291UvhgP2dvNq9K
+	a bot:Element , inst:Foundation_-_Concrete_435mm ;
+	rvt:id "140913" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00022671" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNq9K" .
+inst:wall_1xS3BCk291UvhgP2dvNqAU
+	a bot:Element , inst:Foundation_-_Concrete_435mm ;
+	rvt:id "140987" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000226bb" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqAU" .
+inst:wall_1xS3BCk291UvhgP2dvNqB%24
+	a bot:Element , inst:Foundation_-_Concrete_435mm ;
+	rvt:id "141018" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000226da" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqB$" .
+inst:wall_1xS3BCk291UvhgP2dvNqkY
+	a bot:Element , inst:Party_Wall_-_CMU_Residential_Unit_Dimising_Wall ;
+	rvt:id "143239" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00022f87" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqkY" .
+inst:wall_1xS3BCk291UvhgP2dvNrGN
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "143410" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00023032" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrGN" .
+inst:wall_1xS3BCk291UvhgP2dvNrHJ
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "143478" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00023076" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrHJ" .
+inst:wall_1xS3BCk291UvhgP2dvNrIB
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "143534" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000230ae" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrIB" .
+inst:wall_1xS3BCk291UvhgP2dvNrJ3
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "143590" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000230e6" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrJ3" .
+inst:wall_1xS3BCk291UvhgP2dvNrNL
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "143856" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000231f0" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrNL" .
+inst:wall_1xS3BCk291UvhgP2dvNrOK
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "143921" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00023231" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrOK" .
+inst:wall_1xS3BCk291UvhgP2dvNrPz
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "143960" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00023258" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrPz" .
+inst:wall_1xS3BCk291UvhgP2dvNrSl
+	a bot:Element , inst:Interior_-_Plumbing_152mm_Stud ;
+	rvt:id "144138" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-0002330a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrSl" .
+inst:wall_1xS3BCk291UvhgP2dvNrU8
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "144301" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000233ad" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrU8" .
+inst:wall_1xS3BCk291UvhgP2dvNr2Z
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "144518" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00023486" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNr2Z" .
+inst:wall_1xS3BCk291UvhgP2dvNr3l
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "144586" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000234ca" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNr3l" .
+inst:wall_1xS3BCk291UvhgP2dvNr3S
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "144633" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000234f9" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNr3S" .
+inst:wall_1xS3BCk291UvhgP2dvNr49
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "144684" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-0002352c" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNr49" .
+inst:wall_1xS3BCk291UvhgP2dvNr6g
+	a bot:Element , inst:Interior_-_Plumbing_152mm_Stud ;
+	rvt:id "144783" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-0002358f" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNr6g" .
+inst:wall_1xS3BCk291UvhgP2dvNxPL
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "184944" ;
+	rvt:guid "2da40d62-4698-436c-a2c3-95c49bb5de4c-0002d270" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNxPL" .
+inst:wall_1xS3BCk291UvhgP2dvNxQJ
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "185014" ;
+	rvt:guid "2da40d62-4698-436c-a2c3-95c49bb5de4c-0002d2b6" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNxQJ" .
+inst:wall_1xS3BCk291UvhgP2dvNxRD
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "185064" ;
+	rvt:guid "2da40d62-4698-436c-a2c3-95c49bb5de4c-0002d2e8" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNxRD" .
+inst:wall_1xS3BCk291UvhgP2dvNxSe
+	a bot:Element , inst:Exterior_-_Brick_on_Block ;
+	rvt:id "185101" ;
+	rvt:guid "2da40d62-4698-436c-a2c3-95c49bb5de4c-0002d30d" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNxSe" .
+inst:wall_1xS3BCk291UvhgP2dvNuQt
+	a bot:Element , inst:Interior_-_Furring_152_mm_Stud ;
+	rvt:id "189074" ;
+	rvt:guid "2c391822-07f8-4a22-86a8-a1e574103a53-0002e292" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNuQt" .
+inst:wall_1xS3BCk291UvhgP2dvNu7e
+	a bot:Element , inst:Interior_-_Furring_152_mm_Stud ;
+	rvt:id "189901" ;
+	rvt:guid "2c391822-07f8-4a22-86a8-a1e574103a53-0002e5cd" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNu7e" .
+inst:wall_1xS3BCk291UvhgP2dvNuAP
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "190140" ;
+	rvt:guid "2c391822-07f8-4a22-86a8-a1e574103a53-0002e6bc" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNuAP" .
+inst:wall_1xS3BCk291UvhgP2dvNuqJ
+	a bot:Element , inst:Interior_-_Furring_152_mm_Stud ;
+	rvt:id "190774" ;
+	rvt:guid "2c391822-07f8-4a22-86a8-a1e574103a53-0002e936" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNuqJ" .
+inst:wall_1xS3BCk291UvhgP2dvNutm
+	a bot:Element , inst:Interior_-_Furring_152_mm_Stud ;
+	rvt:id "190933" ;
+	rvt:guid "2c391822-07f8-4a22-86a8-a1e574103a53-0002e9d5" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNutm" .
+inst:wall_1xS3BCk291UvhgP2dvNvRw
+	a bot:Element , inst:Interior_-_Furring_152_mm_Stud ;
+	rvt:id "193247" ;
+	rvt:guid "27ece05c-f06c-4dd2-9ccd-945e525b89d5-0002f2df" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvRw" .
+inst:wall_1xS3BCk291UvhgP2dvNv9J
+	a bot:Element , inst:Interior_-_Furring_152_mm_Stud ;
+	rvt:id "194166" ;
+	rvt:guid "27ece05c-f06c-4dd2-9ccd-945e525b89d5-0002f676" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNv9J" .
+inst:wall_1xS3BCk291UvhgP2dvNdvs
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "203347" ;
+	rvt:guid "64b7f7d3-8cfc-4277-ba33-8de2e6502424-00031a53" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNdvs" .
+inst:wall_1xS3BCk291UvhgP2dvNdZx
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "203998" ;
+	rvt:guid "64b7f7d3-8cfc-4277-ba33-8de2e6502424-00031cde" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNdZx" .
+inst:wall_1xS3BCk291UvhgP2dvNdef
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "204300" ;
+	rvt:guid "64b7f7d3-8cfc-4277-ba33-8de2e6502424-00031e0c" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNdef" .
+inst:wall_1xS3BCk291UvhgP2dvNdhe
+	a bot:Element , inst:Interior_-_Partition_92mm_Stud ;
+	rvt:id "204493" ;
+	rvt:guid "64b7f7d3-8cfc-4277-ba33-8de2e6502424-00031ecd" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNdhe" .
+inst:wall_1xS3BCk291UvhgP2dvNZLZ
+	a bot:Element , inst:Interior_-_Furring_38_mm_Stud ;
+	rvt:id "217414" ;
+	rvt:guid "e21226ef-c42d-4907-9a6f-46644e16769a-00035146" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNZLZ" .
+inst:wall_1xS3BCk291UvhgP2dvNZLY
+	a bot:Element , inst:Interior_-_Furring_38_mm_Stud ;
+	rvt:id "217415" ;
+	rvt:guid "e21226ef-c42d-4907-9a6f-46644e16769a-00035147" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNZLY" .
+inst:wall_1xS3BCk291UvhgP2dvNZLj
+	a bot:Element , inst:Interior_-_Furring_38_mm_Stud ;
+	rvt:id "217416" ;
+	rvt:guid "e21226ef-c42d-4907-9a6f-46644e16769a-00035148" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNZLj" .
+inst:wall_1xS3BCk291UvhgP2dvNZLi
+	a bot:Element , inst:Interior_-_Furring_38_mm_Stud ;
+	rvt:id "217417" ;
+	rvt:guid "e21226ef-c42d-4907-9a6f-46644e16769a-00035149" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNZLi" .
+inst:wall_1xS3BCk291UvhgP2dvNZNC
+	a bot:Element , inst:Interior_-_Furring_38_mm_Stud ;
+	rvt:id "217577" ;
+	rvt:guid "e21226ef-c42d-4907-9a6f-46644e16769a-000351e9" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNZNC" .
+inst:wall_1xS3BCk291UvhgP2dvNZNF
+	a bot:Element , inst:Interior_-_Furring_38_mm_Stud ;
+	rvt:id "217578" ;
+	rvt:guid "e21226ef-c42d-4907-9a6f-46644e16769a-000351ea" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNZNF" .
+inst:wall_1xS3BCk291UvhgP2dvNZNE
+	a bot:Element , inst:Interior_-_Furring_38_mm_Stud ;
+	rvt:id "217579" ;
+	rvt:guid "e21226ef-c42d-4907-9a6f-46644e16769a-000351eb" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNZNE" .
+inst:wall_1xS3BCk291UvhgP2dvNZN9
+	a bot:Element , inst:Interior_-_Furring_38_mm_Stud ;
+	rvt:id "217580" ;
+	rvt:guid "e21226ef-c42d-4907-9a6f-46644e16769a-000351ec" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNZN9" .
+
+# FLOORS
+inst:floor_1xS3BCk291UvhgP2dvNqEL
+	a bot:Element , inst:127mm_Slab_on_Grade ;
+	rvt:id "141232" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-000227b0" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqEL" .
+inst:floor_1xS3BCk291UvhgP2dvNqid
+	a bot:Element , inst:127mm_Slab_on_Grade ;
+	rvt:id "143106" ;
+	rvt:guid "9808fd7f-dc48-478e-9217-628e833f66bf-00022f02" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNqid" .
+inst:floor_1xS3BCk291UvhgP2dvNr65
+	a bot:Element , inst:Residential_-_Wood_Joist_with_Subflooring ;
+	rvt:id "144800" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-000235a0" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNr65" .
+inst:floor_1xS3BCk291UvhgP2dvNr7D
+	a bot:Element , inst:Residential_-_Wood_Joist_with_Subflooring ;
+	rvt:id "144872" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-000235e8" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNr7D" .
+inst:floor_1xS3BCk291UvhgP2dvN%242W
+	a bot:Element , inst:Finish_Floor_-_Wood ;
+	rvt:id "169093" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00029485" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$2W" .
+inst:floor_1xS3BCk291UvhgP2dvN%2431
+	a bot:Element , inst:Finish_Floor_-_Wood ;
+	rvt:id "169188" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-000294e4" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$31" .
+inst:floor_1xS3BCk291UvhgP2dvN%245v
+	a bot:Element , inst:Finish_Floor_-_Wood ;
+	rvt:id "169308" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-0002955c" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$5v" .
+inst:floor_1xS3BCk291UvhgP2dvN%246l
+	a bot:Element , inst:Finish_Floor_-_Wood ;
+	rvt:id "169354" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-0002958a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$6l" .
+inst:floor_1xS3BCk291UvhgP2dvN%246M
+	a bot:Element , inst:Finish_Floor_-_Wood ;
+	rvt:id "169395" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-000295b3" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$6M" .
+inst:floor_1xS3BCk291UvhgP2dvN%24B0
+	a bot:Element , inst:Finish_Floor_-_Wood ;
+	rvt:id "169701" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-000296e5" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$B0" .
+inst:floor_1xS3BCk291UvhgP2dvN%24C9
+	a bot:Element , inst:Finish_Floor_-_Ceramic_Tile ;
+	rvt:id "169772" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-0002972c" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$C9" .
+inst:floor_1xS3BCk291UvhgP2dvN%24El
+	a bot:Element , inst:Finish_Floor_-_Ceramic_Tile ;
+	rvt:id "169866" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-0002978a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$El" .
+inst:floor_1xS3BCk291UvhgP2dvN%24rL
+	a bot:Element , inst:Finish_Floor_-_Wood ;
+	rvt:id "170352" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00029970" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$rL" .
+inst:floor_1xS3BCk291UvhgP2dvN%24y4
+	a bot:Element , inst:Finish_Floor_-_Ceramic_Tile ;
+	rvt:id "170785" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00029b21" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$y4" .
+inst:floor_1xS3BCk291UvhgP2dvN%24Zx
+	a bot:Element , inst:Finish_Floor_-_Ceramic_Tile ;
+	rvt:id "171230" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00029cde" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$Zx" .
+inst:floor_1xS3BCk291UvhgP2dvN%24ZO
+	a bot:Element , inst:Finish_Floor_-_Ceramic_Tile ;
+	rvt:id "171261" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00029cfd" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$ZO" .
+inst:floor_1xS3BCk291UvhgP2dvN%24av
+	a bot:Element , inst:Finish_Floor_-_Wood ;
+	rvt:id "171292" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00029d1c" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$av" .
+inst:floor_1xS3BCk291UvhgP2dvN%24cH
+	a bot:Element , inst:Finish_Floor_-_Ceramic_Tile ;
+	rvt:id "171444" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00029db4" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$cH" .
+inst:floor_1xS3BCk291UvhgP2dvNYcU
+	a bot:Element , inst:150mm_Exterior_Slab_on_Grade ;
+	rvt:id "216507" ;
+	rvt:guid "4c8d2570-3244-4e75-8237-a4372a43a590-00034dbb" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNYcU" .
+inst:floor_1xS3BCk291UvhgP2dvNYdD
+	a bot:Element , inst:150mm_Exterior_Slab_on_Grade ;
+	rvt:id "216552" ;
+	rvt:guid "4c8d2570-3244-4e75-8237-a4372a43a590-00034de8" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNYdD" .
+
+# WINDOWS & DOORS
+inst:window_1xS3BCk291UvhgP2dvNrrP
+	a bot:Element ;
+	rvt:id "145788" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-0002397c" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrrP" .
+inst:window_1xS3BCk291UvhgP2dvNrv5
+	a bot:Element ;
+	rvt:id "146016" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00023a60" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrv5" .
+inst:door_1xS3BCk291UvhgP2dvNrY1
+	a bot:Element ;
+	rvt:id "146596" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00023ca4" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrY1" .
+inst:door_1xS3BCk291UvhgP2dvNrZJ
+	a bot:Element ;
+	rvt:id "146678" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00023cf6" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrZJ" .
+inst:window_1xS3BCk291UvhgP2dvNrdW
+	a bot:Element ;
+	rvt:id "146885" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00023dc5" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrdW" .
+inst:window_1xS3BCk291UvhgP2dvNrfE
+	a bot:Element ;
+	rvt:id "147051" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00023e6b" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNrfE" .
+inst:window_1xS3BCk291UvhgP2dvNoJ3
+	a bot:Element ;
+	rvt:id "147686" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-000240e6" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNoJ3" .
+inst:window_1xS3BCk291UvhgP2dvNoO%24
+	a bot:Element ;
+	rvt:id "147994" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-0002421a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNoO$" .
+inst:window_1xS3BCk291UvhgP2dvNo1Q
+	a bot:Element ;
+	rvt:id "148607" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-0002447f" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNo1Q" .
+inst:window_1xS3BCk291UvhgP2dvNo3N
+	a bot:Element ;
+	rvt:id "148722" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-000244f2" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNo3N" .
+inst:window_1xS3BCk291UvhgP2dvNoCx
+	a bot:Element ;
+	rvt:id "149278" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-0002471e" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNoCx" .
+inst:window_1xS3BCk291UvhgP2dvNom4
+	a bot:Element ;
+	rvt:id "149537" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00024821" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNom4" .
+inst:window_1xS3BCk291UvhgP2dvNopD
+	a bot:Element ;
+	rvt:id "149736" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-000248e8" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNopD" .
+inst:window_1xS3BCk291UvhgP2dvNos1
+	a bot:Element ;
+	rvt:id "149924" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-000249a4" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNos1" .
+inst:door_1xS3BCk291UvhgP2dvNowu
+	a bot:Element ;
+	rvt:id "150173" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00024a9d" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNowu" .
+inst:door_1xS3BCk291UvhgP2dvNoxK
+	a bot:Element ;
+	rvt:id "150257" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00024af1" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNoxK" .
+inst:door_1xS3BCk291UvhgP2dvNozF
+	a bot:Element ;
+	rvt:id "150378" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00024b6a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNozF" .
+inst:door_1xS3BCk291UvhgP2dvNo%24h
+	a bot:Element ;
+	rvt:id "150478" ;
+	rvt:guid "6b61ce71-1a7a-473c-8f87-4262e0bf88be-00024bce" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNo$h" .
+inst:door_1xS3BCk291UvhgP2dvNmlJ
+	a bot:Element ;
+	rvt:id "159734" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00026ff6" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNmlJ" .
+inst:door_1xS3BCk291UvhgP2dvNnH%24
+	a bot:Element ;
+	rvt:id "159834" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-0002705a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNnH$" .
+inst:door_1xS3BCk291UvhgP2dvNnLa
+	a bot:Element ;
+	rvt:id "160065" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-00027141" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNnLa" .
+inst:door_1xS3BCk291UvhgP2dvNnNr
+	a bot:Element ;
+	rvt:id "160208" ;
+	rvt:guid "982f59b0-f2e1-485f-8ce1-c9f61179e785-000271d0" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNnNr" .
+inst:door_1xS3BCk291UvhgP2dvN%24je
+	a bot:Element ;
+	rvt:id "171853" ;
+	rvt:guid "7606d7eb-508f-40ce-a522-9b526ddeed4c-00029f4d" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$je" .
+inst:door_1xS3BCk291UvhgP2dvN%24lY
+	a bot:Element ;
+	rvt:id "171975" ;
+	rvt:guid "7606d7eb-508f-40ce-a522-9b526ddeed4c-00029fc7" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvN$lY" .
+inst:window_1xS3BCk291UvhgP2dvNwHx
+	a bot:Element ;
+	rvt:id "180318" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c05e" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNwHx" .
+inst:window_1xS3BCk291UvhgP2dvNwMI
+	a bot:Element ;
+	rvt:id "180663" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c1b7" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNwMI" .
+inst:window_1xS3BCk291UvhgP2dvNwQb
+	a bot:Element ;
+	rvt:id "180864" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c280" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNwQb" .
+inst:window_1xS3BCk291UvhgP2dvNwSd
+	a bot:Element ;
+	rvt:id "180994" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c302" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNwSd" .
+inst:window_1xS3BCk291UvhgP2dvNwTD
+	a bot:Element ;
+	rvt:id "181096" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c368" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNwTD" .
+inst:window_1xS3BCk291UvhgP2dvNw00
+	a bot:Element ;
+	rvt:id "181285" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c425" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNw00" .
+inst:window_1xS3BCk291UvhgP2dvNw49
+	a bot:Element ;
+	rvt:id "181548" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c52c" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNw49" .
+inst:window_1xS3BCk291UvhgP2dvNw5g
+	a bot:Element ;
+	rvt:id "181583" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c54f" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNw5g" .
+inst:window_1xS3BCk291UvhgP2dvNwAF
+	a bot:Element ;
+	rvt:id "181930" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c6aa" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNwAF" .
+inst:window_1xS3BCk291UvhgP2dvNwDm
+	a bot:Element ;
+	rvt:id "182101" ;
+	rvt:guid "6f010293-ddb7-4fe4-8ffd-c144d8468fb6-0002c755" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNwDm" .
+inst:window_1xS3BCk291UvhgP2dvNxVS
+	a bot:Element ;
+	rvt:id "185337" ;
+	rvt:guid "4ec82fcb-9118-4408-a3ae-37969a35fa74-0002d3f9" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNxVS" .
+inst:window_1xS3BCk291UvhgP2dvNx5J
+	a bot:Element ;
+	rvt:id "185718" ;
+	rvt:guid "4ec82fcb-9118-4408-a3ae-37969a35fa74-0002d576" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNx5J" .
+inst:door_1xS3BCk291UvhgP2dvNd%24j
+	a bot:Element ;
+	rvt:id "203720" ;
+	rvt:guid "64b7f7d3-8cfc-4277-ba33-8de2e6502424-00031bc8" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNd$j" .
+inst:door_1xS3BCk291UvhgP2dvNdad
+	a bot:Element ;
+	rvt:id "204034" ;
+	rvt:guid "64b7f7d3-8cfc-4277-ba33-8de2e6502424-00031d02" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNdad" .
+
+### STOREYS ###
+inst:level_1xS3BCk291UvhgP2dvNMKI
+	a bot:Storey ;
+	rvt:id "311" ;
+	rvt:guid "e3e052f9-0156-11d5-9301-0000863f27ad-00000137" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNMKI" .
+inst:level_1xS3BCk291UvhgP2dvNMQJ
+	a bot:Storey ;
+	rvt:id "694" ;
+	rvt:guid "458c0e49-01bb-11d5-9302-0000863f27ad-000002b6" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNMQJ" .
+inst:level_1xS3BCk291UvhgP2dvNsgp
+	a bot:Storey ;
+	rvt:id "134806" ;
+	rvt:guid "052baddb-ec77-457a-8fe9-c10a6a5858da-00020e96" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNsgp" .
+inst:level_1xS3BCk291UvhgP2dvNtSE
+	a bot:Storey ;
+	rvt:id "135979" ;
+	rvt:guid "25950afa-f028-4e7a-9994-e1ed964bb928-0002132b" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNtSE" .
+
+### SPACES ###
+inst:room_1xS3BCk291UvhgP2dvNvkw
+	a bot:Space ;
+	rvt:id "196511" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0002ff9f" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvkw" .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24MS a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkw bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24MS .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24MV a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkw bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24MV .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24MU a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkw bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24MU .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24MP a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkw bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24MP .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24MO a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkw bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24MO .
+inst:room_1xS3BCk291UvhgP2dvNvk7
+	a bot:Space ;
+	rvt:id "196514" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0002ffa2" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvk7" .
+inst:casewor_1xS3BCk291UvhgP2dvNnwJ a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwJ .
+inst:casewor_1xS3BCk291UvhgP2dvNnwI a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwI .
+inst:casewor_1xS3BCk291UvhgP2dvNnwT a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwT .
+inst:casewor_1xS3BCk291UvhgP2dvNnwS a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwS .
+inst:casewor_1xS3BCk291UvhgP2dvNnwV a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwV .
+inst:casewor_1xS3BCk291UvhgP2dvNnwU a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwU .
+inst:casewor_1xS3BCk291UvhgP2dvNnwO a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwO .
+inst:casewor_1xS3BCk291UvhgP2dvNnwR a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwR .
+inst:casewor_1xS3BCk291UvhgP2dvNnwQ a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnwQ .
+inst:casewor_1xS3BCk291UvhgP2dvNnxb a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnxb .
+inst:casewor_1xS3BCk291UvhgP2dvNnxa a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnxa .
+inst:casewor_1xS3BCk291UvhgP2dvNu_C a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNu_C .
+inst:casewor_1xS3BCk291UvhgP2dvNuXW a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNuXW .
+inst:casewor_1xS3BCk291UvhgP2dvNuZb a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNuZb .
+inst:casewor_1xS3BCk291UvhgP2dvNuaz a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNuaz .
+inst:room_1xS3BCk291UvhgP2dvNvk0
+	a bot:Space ;
+	rvt:id "196517" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0002ffa5" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvk0" .
+inst:casewor_1xS3BCk291UvhgP2dvNaR9 a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvk0 bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNaR9 .
+inst:room_1xS3BCk291UvhgP2dvNvkD
+	a bot:Space ;
+	rvt:id "196520" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0002ffa8" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvkD" .
+inst:room_1xS3BCk291UvhgP2dvNvkK
+	a bot:Space ;
+	rvt:id "196529" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0002ffb1" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvkK" .
+inst:room_1xS3BCk291UvhgP2dvNvkK bot:adjacentElement inst:window_1xS3BCk291UvhgP2dvNx5J .
+inst:room_1xS3BCk291UvhgP2dvNvkG
+	a bot:Space ;
+	rvt:id "196533" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0002ffb5" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvkG" .
+inst:casewor_1xS3BCk291UvhgP2dvNaNr a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkG bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNaNr .
+inst:casewor_1xS3BCk291UvhgP2dvNaNq a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkG bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNaNq .
+inst:room_1xS3BCk291UvhgP2dvNvkT
+	a bot:Space ;
+	rvt:id "196536" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0002ffb8" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvkT" .
+inst:casewor_1xS3BCk291UvhgP2dvNmpR a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmpR .
+inst:casewor_1xS3BCk291UvhgP2dvNmpQ a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmpQ .
+inst:furnitur_1xS3BCk291UvhgP2dvN%240L a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%240L .
+inst:furnitur_1xS3BCk291UvhgP2dvNamv a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvNamv .
+inst:room_1xS3BCk291UvhgP2dvNvkU
+	a bot:Space ;
+	rvt:id "196539" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0002ffbb" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNvkU" .
+inst:casewor_1xS3BCk291UvhgP2dvNmqw a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmqw .
+inst:casewor_1xS3BCk291UvhgP2dvNmq5 a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmq5 .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24Se a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24Se .
+inst:furnitur_1xS3BCk291UvhgP2dvNaA3 a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvNaA3 .
+inst:room_1xS3BCk291UvhgP2dvNcNR
+	a bot:Space ;
+	rvt:id "197118" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-000301fe" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNcNR" .
+inst:furnitur_1xS3BCk291UvhgP2dvN_bM a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcNR bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN_bM .
+inst:furnitur_1xS3BCk291UvhgP2dvN_ed a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcNR bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN_ed .
+inst:furnitur_1xS3BCk291UvhgP2dvN_g5 a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcNR bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN_g5 .
+inst:furnitur_1xS3BCk291UvhgP2dvN_h2 a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcNR bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN_h2 .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24Hw a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcNR bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24Hw .
+inst:room_1xS3BCk291UvhgP2dvNcOa
+	a bot:Space ;
+	rvt:id "197121" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-00030201" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNcOa" .
+inst:casewor_1xS3BCk291UvhgP2dvNmcI a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmcI .
+inst:casewor_1xS3BCk291UvhgP2dvNmex a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmex .
+inst:casewor_1xS3BCk291UvhgP2dvNnUw a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnUw .
+inst:casewor_1xS3BCk291UvhgP2dvNnVe a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnVe .
+inst:casewor_1xS3BCk291UvhgP2dvNn6e a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNn6e .
+inst:casewor_1xS3BCk291UvhgP2dvNnDB a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnDB .
+inst:casewor_1xS3BCk291UvhgP2dvNnsJ a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnsJ .
+inst:casewor_1xS3BCk291UvhgP2dvNnsI a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnsI .
+inst:casewor_1xS3BCk291UvhgP2dvNnuY a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnuY .
+inst:casewor_1xS3BCk291UvhgP2dvNnuG a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnuG .
+inst:casewor_1xS3BCk291UvhgP2dvNnvg a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNnvg .
+inst:casewor_1xS3BCk291UvhgP2dvNugy a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNugy .
+inst:casewor_1xS3BCk291UvhgP2dvNujk a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNujk .
+inst:casewor_1xS3BCk291UvhgP2dvNulP a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNulP .
+inst:casewor_1xS3BCk291UvhgP2dvNvH7 a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNvH7 .
+inst:room_1xS3BCk291UvhgP2dvNcOX
+	a bot:Space ;
+	rvt:id "197124" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-00030204" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNcOX" .
+inst:room_1xS3BCk291UvhgP2dvNcOY
+	a bot:Space ;
+	rvt:id "197127" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-00030207" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNcOY" .
+inst:room_1xS3BCk291UvhgP2dvNcOe
+	a bot:Space ;
+	rvt:id "197133" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-0003020d" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNcOe" .
+inst:room_1xS3BCk291UvhgP2dvNcOe bot:adjacentElement inst:window_1xS3BCk291UvhgP2dvNxVS .
+inst:room_1xS3BCk291UvhgP2dvNcOq
+	a bot:Space ;
+	rvt:id "197137" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-00030211" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNcOq" .
+inst:casewor_1xS3BCk291UvhgP2dvNaIZ a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOq bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNaIZ .
+inst:casewor_1xS3BCk291UvhgP2dvNaMI a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOq bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNaMI .
+inst:room_1xS3BCk291UvhgP2dvNcOn
+	a bot:Space ;
+	rvt:id "197140" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-00030214" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNcOn" .
+inst:casewor_1xS3BCk291UvhgP2dvNmsb a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmsb .
+inst:casewor_1xS3BCk291UvhgP2dvNmsa a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmsa .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24Oa a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24Oa .
+inst:furnitur_1xS3BCk291UvhgP2dvNa7k a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvNa7k .
+inst:room_1xS3BCk291UvhgP2dvNcOo
+	a bot:Space ;
+	rvt:id "197143" ;
+	rvt:guid "0b74b3fa-1a92-405e-9ac9-d59067bce2dd-00030217" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNcOo" .
+inst:casewor_1xS3BCk291UvhgP2dvNm8r a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNm8r .
+inst:casewor_1xS3BCk291UvhgP2dvNmE2 a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:containsElement inst:casewor_1xS3BCk291UvhgP2dvNmE2 .
+inst:furnitur_1xS3BCk291UvhgP2dvN%24Vt a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvN%24Vt .
+inst:furnitur_1xS3BCk291UvhgP2dvNaDs a bot:Element .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:containsElement inst:furnitur_1xS3BCk291UvhgP2dvNaDs .
+inst:room_1xS3BCk291UvhgP2dvNdjF
+	a bot:Space ;
+	rvt:id "204650" ;
+	rvt:guid "aa6e13ea-b5bc-4245-93bf-8b2355872cb5-00031f6a" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNdjF" .
+inst:room_1xS3BCk291UvhgP2dvNdjS
+	a bot:Space ;
+	rvt:id "204665" ;
+	rvt:guid "aa6e13ea-b5bc-4245-93bf-8b2355872cb5-00031f79" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNdjS" .
+inst:room_1xS3BCk291UvhgP2dvNb9h
+	a bot:Space ;
+	rvt:id "210510" ;
+	rvt:guid "40c2d70d-8d3b-49a9-9702-6756a4ed76b3-0003364e" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNb9h" .
+inst:room_1xS3BCk291UvhgP2dvNbEa
+	a bot:Space ;
+	rvt:id "210817" ;
+	rvt:guid "40c2d70d-8d3b-49a9-9702-6756a4ed76b3-00033781" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNbEa" .
+inst:room_1xS3BCk291UvhgP2dvNbq0
+	a bot:Space ;
+	rvt:id "211237" ;
+	rvt:guid "335fc1b3-63ca-474d-9c21-6d5abbdb0485-00033925" ;
+	rvt:ifcguid "1xS3BCk291UvhgP2dvNbq0" .
+
+### RELATIONSHIPS ###
+
+# WINDOWS AND DOORS HOSTED IN A WALL
+inst:wall_1xS3BCk291UvhgP2dvNtzh bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNrrP .
+inst:wall_1xS3BCk291UvhgP2dvNt%24O bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNrv5 .
+inst:wall_1xS3BCk291UvhgP2dvNt_8 bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNrY1 .
+inst:wall_1xS3BCk291UvhgP2dvNtXZ bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNrZJ .
+inst:wall_1xS3BCk291UvhgP2dvNt_8 bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNrdW .
+inst:wall_1xS3BCk291UvhgP2dvNtXZ bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNrfE .
+inst:wall_1xS3BCk291UvhgP2dvNrGN bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNoJ3 .
+inst:wall_1xS3BCk291UvhgP2dvNrGN bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNoO%24 .
+inst:wall_1xS3BCk291UvhgP2dvNrGN bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNo1Q .
+inst:wall_1xS3BCk291UvhgP2dvNrGN bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNo3N .
+inst:wall_1xS3BCk291UvhgP2dvNrIB bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNoCx .
+inst:wall_1xS3BCk291UvhgP2dvNrIB bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNom4 .
+inst:wall_1xS3BCk291UvhgP2dvNrIB bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNopD .
+inst:wall_1xS3BCk291UvhgP2dvNrIB bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNos1 .
+inst:wall_1xS3BCk291UvhgP2dvNqM7 bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNowu .
+inst:wall_1xS3BCk291UvhgP2dvNtkY bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNoxK .
+inst:wall_1xS3BCk291UvhgP2dvNrNL bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNozF .
+inst:wall_1xS3BCk291UvhgP2dvNr2Z bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNo%24h .
+inst:wall_1xS3BCk291UvhgP2dvNrPz bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNmlJ .
+inst:wall_1xS3BCk291UvhgP2dvNr3S bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNnH%24 .
+inst:wall_1xS3BCk291UvhgP2dvNrOK bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNnLa .
+inst:wall_1xS3BCk291UvhgP2dvNr3l bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNnNr .
+inst:wall_1xS3BCk291UvhgP2dvNtzh bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvN%24je .
+inst:wall_1xS3BCk291UvhgP2dvNt%24O bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvN%24lY .
+inst:wall_1xS3BCk291UvhgP2dvNrJ3 bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNwHx .
+inst:wall_1xS3BCk291UvhgP2dvNrJ3 bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNwMI .
+inst:wall_1xS3BCk291UvhgP2dvNrJ3 bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNwQb .
+inst:wall_1xS3BCk291UvhgP2dvNrJ3 bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNwSd .
+inst:wall_1xS3BCk291UvhgP2dvNrHJ bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNwTD .
+inst:wall_1xS3BCk291UvhgP2dvNrHJ bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNw00 .
+inst:wall_1xS3BCk291UvhgP2dvNrHJ bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNw49 .
+inst:wall_1xS3BCk291UvhgP2dvNrHJ bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNw5g .
+inst:wall_1xS3BCk291UvhgP2dvNrHJ bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNwAF .
+inst:wall_1xS3BCk291UvhgP2dvNrJ3 bot:hasSubElement inst:window_1xS3BCk291UvhgP2dvNwDm .
+inst:wall_1xS3BCk291UvhgP2dvNdvs bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNd%24j .
+inst:wall_1xS3BCk291UvhgP2dvNdZx bot:hasSubElement inst:door_1xS3BCk291UvhgP2dvNdad .
+
+# ROOMS AT EACH STOREY
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNvkw .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNvk7 .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNvk0 .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNvkD .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNvkK .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNvkG .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNvkT .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNvkU .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNcNR .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNcOa .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNcOX .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNcOY .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNcOe .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNcOq .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNcOn .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNcOo .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNdjF .
+inst:level_1xS3BCk291UvhgP2dvNMQJ bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNdjS .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNb9h .
+inst:level_1xS3BCk291UvhgP2dvNMKI bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNbEa .
+inst:level_1xS3BCk291UvhgP2dvNtSE bot:hasSpace inst:room_1xS3BCk291UvhgP2dvNbq0 .
+
+# ELEMENTS ADJACENT TO ROOMS
+inst:room_1xS3BCk291UvhgP2dvNvkw bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNt%24O .
+inst:room_1xS3BCk291UvhgP2dvNvkw bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqQ6 .
+inst:room_1xS3BCk291UvhgP2dvNvkw bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtXZ .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtXZ .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqM7 .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqOY .
+inst:room_1xS3BCk291UvhgP2dvNvk7 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNutm .
+inst:room_1xS3BCk291UvhgP2dvNvk0 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtl7 .
+inst:room_1xS3BCk291UvhgP2dvNvk0 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNuqJ .
+inst:room_1xS3BCk291UvhgP2dvNvk0 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqOY .
+inst:room_1xS3BCk291UvhgP2dvNvk0 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqM7 .
+inst:room_1xS3BCk291UvhgP2dvNvkD bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNt_8 .
+inst:room_1xS3BCk291UvhgP2dvNvkD bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtl7 .
+inst:room_1xS3BCk291UvhgP2dvNvkD bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqM7 .
+inst:room_1xS3BCk291UvhgP2dvNvkD bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqM7 .
+inst:room_1xS3BCk291UvhgP2dvNvkD bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqQ6 .
+inst:room_1xS3BCk291UvhgP2dvNvkD bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNt%24O .
+inst:room_1xS3BCk291UvhgP2dvNvkK bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrHJ .
+inst:room_1xS3BCk291UvhgP2dvNvkK bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3S .
+inst:room_1xS3BCk291UvhgP2dvNvkK bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3l .
+inst:room_1xS3BCk291UvhgP2dvNvkK bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3l .
+inst:room_1xS3BCk291UvhgP2dvNvkK bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3l .
+inst:room_1xS3BCk291UvhgP2dvNvkK bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3l .
+inst:room_1xS3BCk291UvhgP2dvNvkK bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr2Z .
+inst:room_1xS3BCk291UvhgP2dvNvkG bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3l .
+inst:room_1xS3BCk291UvhgP2dvNvkG bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNdZx .
+inst:room_1xS3BCk291UvhgP2dvNvkG bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNvRw .
+inst:room_1xS3BCk291UvhgP2dvNvkG bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr6g .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqkY .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrIB .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrHJ .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr2Z .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr2Z .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3l .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr6g .
+inst:room_1xS3BCk291UvhgP2dvNvkT bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr6g .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqkY .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr49 .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr49 .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3l .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3S .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrHJ .
+inst:room_1xS3BCk291UvhgP2dvNvkU bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrGN .
+inst:room_1xS3BCk291UvhgP2dvNcNR bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtzh .
+inst:room_1xS3BCk291UvhgP2dvNcNR bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtbz .
+inst:room_1xS3BCk291UvhgP2dvNcNR bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNt_8 .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNt_8 .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtkY .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNuAP .
+inst:room_1xS3BCk291UvhgP2dvNcOa bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNuQt .
+inst:room_1xS3BCk291UvhgP2dvNcOX bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtkY .
+inst:room_1xS3BCk291UvhgP2dvNcOX bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqHs .
+inst:room_1xS3BCk291UvhgP2dvNcOX bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNu7e .
+inst:room_1xS3BCk291UvhgP2dvNcOX bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNuAP .
+inst:room_1xS3BCk291UvhgP2dvNcOY bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtzh .
+inst:room_1xS3BCk291UvhgP2dvNcOY bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtXZ .
+inst:room_1xS3BCk291UvhgP2dvNcOY bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqHs .
+inst:room_1xS3BCk291UvhgP2dvNcOY bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtkY .
+inst:room_1xS3BCk291UvhgP2dvNcOY bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtkY .
+inst:room_1xS3BCk291UvhgP2dvNcOY bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtbz .
+inst:room_1xS3BCk291UvhgP2dvNcOe bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrJ3 .
+inst:room_1xS3BCk291UvhgP2dvNcOe bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrPz .
+inst:room_1xS3BCk291UvhgP2dvNcOe bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrOK .
+inst:room_1xS3BCk291UvhgP2dvNcOe bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrOK .
+inst:room_1xS3BCk291UvhgP2dvNcOe bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrOK .
+inst:room_1xS3BCk291UvhgP2dvNcOe bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrOK .
+inst:room_1xS3BCk291UvhgP2dvNcOe bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrNL .
+inst:room_1xS3BCk291UvhgP2dvNcOq bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrOK .
+inst:room_1xS3BCk291UvhgP2dvNcOq bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNdvs .
+inst:room_1xS3BCk291UvhgP2dvNcOq bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNv9J .
+inst:room_1xS3BCk291UvhgP2dvNcOq bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrSl .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqkY .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrGN .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrJ3 .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrNL .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrNL .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrOK .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrSl .
+inst:room_1xS3BCk291UvhgP2dvNcOn bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrSl .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqkY .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrU8 .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrU8 .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrOK .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrPz .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrJ3 .
+inst:room_1xS3BCk291UvhgP2dvNcOo bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrIB .
+inst:room_1xS3BCk291UvhgP2dvNdjF bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr3l .
+inst:room_1xS3BCk291UvhgP2dvNdjF bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNr49 .
+inst:room_1xS3BCk291UvhgP2dvNdjF bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNvRw .
+inst:room_1xS3BCk291UvhgP2dvNdjF bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNdZx .
+inst:room_1xS3BCk291UvhgP2dvNdjS bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrOK .
+inst:room_1xS3BCk291UvhgP2dvNdjS bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNrU8 .
+inst:room_1xS3BCk291UvhgP2dvNdjS bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNv9J .
+inst:room_1xS3BCk291UvhgP2dvNdjS bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNdvs .
+inst:room_1xS3BCk291UvhgP2dvNb9h bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNt_8 .
+inst:room_1xS3BCk291UvhgP2dvNb9h bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtl7 .
+inst:room_1xS3BCk291UvhgP2dvNbEa bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNtXZ .
+inst:room_1xS3BCk291UvhgP2dvNbEa bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNqHs .
+inst:room_1xS3BCk291UvhgP2dvNbq0 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNxPL .
+inst:room_1xS3BCk291UvhgP2dvNbq0 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNxSe .
+inst:room_1xS3BCk291UvhgP2dvNbq0 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNxRD .
+inst:room_1xS3BCk291UvhgP2dvNbq0 bot:adjacentElement inst:wall_1xS3BCk291UvhgP2dvNxQJ .

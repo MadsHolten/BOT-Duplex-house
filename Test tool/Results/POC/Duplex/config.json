@@ -1,0 +1,47 @@
+{
+    "store": {
+        "endpoint": "http://localhost:5820",
+        "username": "admin",
+        "password": "admin"
+    },
+    "directory": "./triples",
+    "files": ["Duplex.ttl", "Duplex_classes.ttl", "Duplex_geometry.ttl", "Duplex_products.ttl", "Duplex_props.ttl"],
+    "namedGraph": "http://architect.com/projects/17001",
+    "loops": 10,
+    "queries":
+    [
+        {
+            "name": "Get all spaces", 
+            "query": "PREFIX bot: <https://w3id.org/bot#>\nPREFIX arch: <http://architect.com/projects/>\n\nSELECT *\nWHERE {\n\tGRAPH arch:17001 {\n\t\t?s a bot:Space .\n\t}\n}"
+        },
+        {
+            "name": "Insert dummy heating demands", 
+            "query": "PREFIX bot: <https://w3id.org/bot#>\nPREFIX props: <https://w3id.org/product/props#>\nPREFIX opm: <https://w3id.org/opm#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX arch: <http://architect.com/projects/>\nPREFIX ice: <http://ice-engineer.com/projects/>\n\nINSERT{\n\tGRAPH ?gICE {\n\t\t?space props:heatingDemand ?newPropertyURI .\n\t\t?newPropertyURI opm:hasState ?newStateURI .\n\t\t?newStateURI a opm:CurrentState ;\n\t\t\topm:value ?hd ;\n\t\t\tprov:wasDerivedFrom ?stateURI ;\n\t\t\tprov:generatedAtTime ?now .\n\t}\n}\nWHERE {\n\tBIND(props:dimensionsarea AS ?prop)\n\tBIND(arch:17001 AS ?gArch)\n\tBIND(ice:1001 AS ?gICE)\n\tGRAPH ?gArch {\n\t\t?space a bot:Space ;\n\t\t\t?prop ?propURI .\n\t\t?propURI opm:hasState ?stateURI ;\n\t\t\topm:hasState ?stateURI .\n\t\t?stateURI a opm:CurrentState ;\n\t\t\topm:value ?area.\n\t}\n\t# GENERATE DATA\n\tBIND( CEILING(20 * ?area) AS ?hd )\n\n\t# ONLY IF PROPERTY NOT ALREADY DEFINED\n\tMINUS { GRAPH ?gICE { ?space props:heatingDemand ?oldHd } }\n\n\tBIND(REPLACE(STR(UUID()), \"urn:uuid:\", \"\") AS ?guid1)\n\tBIND(REPLACE(STR(UUID()), \"urn:uuid:\", \"\") AS ?guid2)\n\tBIND( URI(CONCAT(STR(?gICE), \"#\", \"property_\", ?guid1)) AS ?newPropertyURI )\n\tBIND( URI(CONCAT(STR(?gICE), \"#\", \"state_\", ?guid1)) AS ?newStateURI )\n\tBIND( NOW() AS ?now )\n}"
+        },
+        {
+            "name": "Query areas and heating demands", 
+            "query": "PREFIX bot: <https://w3id.org/bot#>\nPREFIX props: <https://w3id.org/product/props#>\nPREFIX opm: <https://w3id.org/opm#>\nPREFIX arch: <http://architect.com/projects/>\nPREFIX ice: <http://ice-engineer.com/projects/>\n\nSELECT ?space ?area ?heatingDemand\nWHERE {\n\tBIND(arch:17001 AS ?gArch)\n\tBIND(ice:1001 AS ?gICE)\n\n\tGRAPH ?gArch { \n\t\t?space a bot:Space;\n\t\t\tprops:dimensionsarea/opm:hasState [ a opm:CurrentState ; opm:value ?area ]\n\n\t}\n\tGRAPH ?gICE { \n\t\t?space props:heatingDemand/opm:hasState [ a opm:CurrentState ; opm:value ?heatingDemand ]\n\t}\n}"
+        },
+        {
+            "name": "Insert dummy heaters", 
+            "query": "PREFIX bot: <https://w3id.org/bot#>\nPREFIX props: <https://w3id.org/product/props#>\nPREFIX opm: <https://w3id.org/opm#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX fso: <http://w3id.org/fso#>\nPREFIX hvac: <http://hvac-eng.com/projects/>\nPREFIX arch: <http://architect.com/projects/>\nPREFIX ice: <http://ice-engineer.com/projects/>\n\nINSERT {\n\tGRAPH ?gHVAC {\n\t\t?space fso:heatedBy ?heaterURI ;\n\t\t\tbot:containsElement ?heaterURI .\n\t\t?heaterURI a fso:Heater ;\n\t\t\tprops:heatOutput ?newPropertyURI .\n\t\t\t?newPropertyURI opm:hasState ?newStateURI .\n\t\t\t?newStateURI a opm:CurrentState ;\n\t\t\t\topm:value ?power ;\n\t\t\t\tprov:wasDerivedFrom ?stateURI ;\n\t\t\t\tprov:generatedAtTime ?now .\n\t}\n}\nWHERE {\n\tBIND(ice:1001 AS ?gICE)\n\tBIND(hvac:17392 as ?gHVAC)\n\n\tGRAPH ?gICE { \n\t\t?space props:heatingDemand/opm:hasState ?stateURI .\n\t\t?stateURI a opm:CurrentState ; \n\t\t\topm:value ?hd .\n\t}\n\t\n\t# SKIP IF THERE A HEATER IS ALREADY DEFINED\n\tMINUS { GRAPH ?gHVAC { ?space fso:heatedBy ?oldHeater } }\n\n\t# CALCULATE HEAT OUTPUT\n\tBIND(?hd*1.1 as ?power)\n\n\t# CREATE URIs\n\tBIND(REPLACE(STR(UUID()), \"urn:uuid:\", \"\") AS ?guid1)\n\tBIND(REPLACE(STR(UUID()), \"urn:uuid:\", \"\") AS ?guid2)\n\tBIND(REPLACE(STR(UUID()), \"urn:uuid:\", \"\") AS ?guid3)\n\t\n\tBIND( URI(CONCAT(STR(?gHVAC), \"#\", \"property_\", ?guid1)) AS ?newPropertyURI )\n\tBIND( URI(CONCAT(STR(?gHVAC), \"#\", \"state_\", ?guid2)) AS ?newStateURI )\n\tBIND( URI(CONCAT(STR(?gHVAC), \"#\", \"heater_\", ?guid3)) AS ?heaterURI )\n\tBIND(NOW() AS ?now)\n}"
+        },
+        {
+            "name": "Query heating areas, heating demands, heaters and their output", 
+            "query": "PREFIX bot: <https://w3id.org/bot#>\nPREFIX props: <https://w3id.org/product/props#>\nPREFIX opm: <https://w3id.org/opm#>\nPREFIX arch: <http://architect.com/projects/>\nPREFIX ice: <http://ice-engineer.com/projects/>\nPREFIX hvac: <http://hvac-eng.com/projects/>\nPREFIX fso: <https://w3id.org/fso#>\n\nSELECT ?space ?area ?heater ?power\nWHERE {\n\tBIND(arch:17001 AS ?gArch)\n\tBIND(ice:1001 AS ?gICE)\n\tBIND(hvac:17392 as ?gHVAC)\n\n\tGRAPH ?gArch { \n\t\t?space a bot:Space;\n\t\t\tprops:dimensionsarea/opm:hasState [ a opm:CurrentState ; opm:value ?area ]\n\t}\n\tGRAPH ?gICE { \n\t\t?space props:heatingDemand/opm:hasState [ a opm:CurrentState ; opm:value ?hd ]\n\t}\n\tGRAPH ?gHVAC{ \n\t\t?space bot:containsElement ?heater .\n\t\t?heater props:heatOutput /opm:hasState [ a opm:CurrentState ; opm:value ?power ]\n\t}\n}"
+        },
+        {
+            "name": "Comparing heating demand to heat output",
+            "query": "PREFIX bot: <https://w3id.org/bot#>\nPREFIX props: <https://w3id.org/product/props#>\nPREFIX opm: <https://w3id.org/opm#>\nPREFIX arch: <http://architect.com/projects/>\nPREFIX ice: <http://ice-engineer.com/projects/>\nPREFIX hvac: <http://hvac-eng.com/projects/>\nPREFIX fso: <http://w3id.org/fso#>\n\nSELECT ?space ?heatingDemand ?heatOutput ?overCapacity ?heatRequirementFulfilled\nWHERE {\n\tBIND(ice:1001 AS ?gICE)\n\tBIND(hvac:17392 as ?gHVAC)\n\n\t# GET HEATING DEMAND\n\tGRAPH ?gICE{ \t\n\t\t?space props:heatingDemand/opm:hasState [ a opm:CurrentState ; opm:value ?heatingDemand ]\n\t}\n\n\t# GET THE TOTAL HEAT OUTPUT OF HEATERS IN THE SPACE\n\tGRAPH ?gHVAC { \n\t\t{ \n\t\t\tSELECT ?space (CEILING(SUM(?ho)) AS ?heatOutput) WHERE {\n\t\t\t\t?space fso:heatedBy ?heater .\n\t\t\t\t\t?heater props:heatOutput /opm:hasState [ a opm:CurrentState ; opm:value ?ho]\n\t\t\t} GROUP BY ?space\n\t\t}\n\t}\n\n\t# CALCULATE OVER CAPACITY\n\tBIND(?heatOutput /?heatingDemand AS ?overCapacity)\n\n\t# CHECK IF REQUIREMENT IS FULFILLED\n\tBIND(IF(?overCapacity > 1, xsd:boolean(true), xsd:boolean(false)) AS ?heatRequirementFulfilled)\n\n} \nORDER BY ?space"
+        },
+        {
+            "name": "Revise dummy heating demands",
+            "query": "PREFIX bot: <https://w3id.org/bot#>\nPREFIX props: <https://w3id.org/product/props#>\nPREFIX opm: <https://w3id.org/opm#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX ice: <http://ice-engineer.com/projects/>\nPREFIX hvac: <http://hvac-eng.com/projects/>\nPREFIX fso: <https://w3id.org/fso#>\n\nDELETE {\n  GRAPH ?gICE {\n    ?stateURI a opm:CurrentState .\n  }\n}\nINSERT {\n  GRAPH ?gICE {\n    ?hdURI opm:hasState ?newStateURI .\n    ?newStateURI a opm:CurrentState ;\n      opm:value ?hdNew ;\n      prov:generatedAtTime ?now .\n  }\n}\nWHERE {\n  BIND(ice:1001 AS ?gICE)\n  BIND(hvac:17392 as ?gHVAC)\n\n  # GET EXISITNG HEATING DEMANDS\n  GRAPH ?gICE { \n    ?space props:heatingDemand ?hdURI .\n    ?hdURI opm:hasState ?stateURI .\n    ?stateURI a opm:CurrentState ; \n    \topm:value ?hd .\n  }\n\n  # CONTINUE ONLY WITH DEMANDS LOWER THAN 100\n  FILTER(?hd < 100)\n  \n  BIND(?hd*1.2 AS ?hdNew)\n\n  # CREATE NEW STATE URI\n  BIND( REPLACE(STR(UUID()), \"urn:uuid:\", \"\") AS ?guid )\n  BIND( URI(CONCAT(STR(?gICE), \"#\", \"state_\", ?guid)) AS ?newStateURI )\n  BIND(NOW() AS ?now)\n}"
+        },
+        {
+            "name": "Finding spaces where the heating demand is not fulfilled",
+            "query": "PREFIX bot: <https://w3id.org/bot#>\nPREFIX props: <https://w3id.org/product/props#>\nPREFIX opm: <https://w3id.org/opm#>\nPREFIX ice: <http://ice-engineer.com/projects/>\nPREFIX hvac: <http://hvac-eng.com/projects/>\nPREFIX fso: <http://w3id.org/fso#>\n\nSELECT ?space ?heatingDemand ?heatOutput ?overCapacity ?heatRequirementFulfilled\nWHERE {\n  BIND(ice:1001 AS ?gICE)\n  BIND(hvac:17392 as ?gHVAC)\n\n  # GET HEATING DEMAND\n  GRAPH ?gICE{ \t\n    ?space props:heatingDemand/opm:hasState [ a opm:CurrentState ; opm:value ?heatingDemand ]\n  }\n\n  # GET THE TOTAL HEAT OUTPUT OF HEATERS IN THE SPACE\n  GRAPH ?gHVAC { \n    { \n      SELECT ?space (CEILING(SUM(?ho)) AS ?heatOutput) WHERE {\n        ?space fso:heatedBy ?heater .\n        ?heater props:heatOutput /opm:hasState [ a opm:CurrentState ; opm:value ?ho]\n      } GROUP BY ?space\n    }\n  }\n\n  # CALCULATE OVER CAPACITY\n  BIND(?heatOutput /?heatingDemand AS ?overCapacity)\n\n  # CHECK IF REQUIREMENT IS FULFILLED\n  BIND(IF(?overCapacity > 1, xsd:boolean(true), xsd:boolean(false)) AS ?heatRequirementFulfilled)\n\n  # ONLY SHOW SPACES WHERE REQUIREMENT IS NOT FULFILLED\n  FILTER(?heatRequirementFulfilled != true)\n  \n} \nORDER BY ?space"
+        }
+    ]
+}
+

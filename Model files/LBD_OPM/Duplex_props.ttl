@@ -1,0 +1,2624 @@
+@prefix props:	<https://w3id.org/props#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:		<https://example.org/> .
+@prefix inst:	<https://172.16.10.122:8080/projects/1001/> .
+@prefix opm:	<https://w3id.org/opm#> .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+@prefix schema:	<http://schema.org/> .
+
+### ELEMENTS ###
+
+# WALLS
+inst:wall_1xS3BCk291UvhgP2dvNtzh
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNtzh .
+inst:identityDataName_1xS3BCk291UvhgP2dvNtzh
+	opm:hasPropertyState inst:state_identityDataName_a83c4f2f-62b7-4727-a036-6f0d6c8dcb09 .
+inst:state_identityDataName_a83c4f2f-62b7-4727-a036-6f0d6c8dcb09
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtzh
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNtzh .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNtzh
+	opm:hasPropertyState inst:state_dimensionsLength_d6653464-bbdf-469e-88d2-a93e1ef77545 .
+inst:state_dimensionsLength_d6653464-bbdf-469e-88d2-a93e1ef77545
+	a opm:CurrentPropertyState ;
+	schema:value "8383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNt_8
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNt_8 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNt_8
+	opm:hasPropertyState inst:state_identityDataName_3c1bb6b3-0a94-4f55-9d69-ed13da62fad7 .
+inst:state_identityDataName_3c1bb6b3-0a94-4f55-9d69-ed13da62fad7
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNt_8
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNt_8 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNt_8
+	opm:hasPropertyState inst:state_dimensionsLength_60e55a9b-2713-4762-a42e-9e31d7020ff6 .
+inst:state_dimensionsLength_60e55a9b-2713-4762-a42e-9e31d7020ff6
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNt%24O
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNt%24O .
+inst:identityDataName_1xS3BCk291UvhgP2dvNt%24O
+	opm:hasPropertyState inst:state_identityDataName_0cc5eac2-f744-4d0d-90bc-fc2e87da249e .
+inst:state_identityDataName_0cc5eac2-f744-4d0d-90bc-fc2e87da249e
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNt%24O
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNt%24O .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNt%24O
+	opm:hasPropertyState inst:state_dimensionsLength_c710f3ef-a018-41d9-bec0-8f5c8e69d728 .
+inst:state_dimensionsLength_c710f3ef-a018-41d9-bec0-8f5c8e69d728
+	a opm:CurrentPropertyState ;
+	schema:value "8383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtXZ
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNtXZ .
+inst:identityDataName_1xS3BCk291UvhgP2dvNtXZ
+	opm:hasPropertyState inst:state_identityDataName_f85871ed-43ec-40ad-af1b-d22ad13f6716 .
+inst:state_identityDataName_f85871ed-43ec-40ad-af1b-d22ad13f6716
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtXZ
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNtXZ .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNtXZ
+	opm:hasPropertyState inst:state_dimensionsLength_8dddd3ff-cae3-4b26-9338-670e44856a0e .
+inst:state_dimensionsLength_8dddd3ff-cae3-4b26-9338-670e44856a0e
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtbz
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNtbz .
+inst:identityDataName_1xS3BCk291UvhgP2dvNtbz
+	opm:hasPropertyState inst:state_identityDataName_feeb24e9-29b8-4fb7-99af-1077bda8db86 .
+inst:state_identityDataName_feeb24e9-29b8-4fb7-99af-1077bda8db86
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtbz
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNtbz .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNtbz
+	opm:hasPropertyState inst:state_dimensionsLength_72eb8088-2e85-45c2-a0c9-6f70606ef74a .
+inst:state_dimensionsLength_72eb8088-2e85-45c2-a0c9-6f70606ef74a
+	a opm:CurrentPropertyState ;
+	schema:value "3791.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtkY
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNtkY .
+inst:identityDataName_1xS3BCk291UvhgP2dvNtkY
+	opm:hasPropertyState inst:state_identityDataName_d7e4732a-bebf-46e3-8792-d0d8eca796d0 .
+inst:state_identityDataName_d7e4732a-bebf-46e3-8792-d0d8eca796d0
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtkY
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNtkY .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNtkY
+	opm:hasPropertyState inst:state_dimensionsLength_096e7072-2e98-41c5-be5b-a2bc69c89175 .
+inst:state_dimensionsLength_096e7072-2e98-41c5-be5b-a2bc69c89175
+	a opm:CurrentPropertyState ;
+	schema:value "3195"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtl7
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNtl7 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNtl7
+	opm:hasPropertyState inst:state_identityDataName_a8c7ee15-91e6-4278-b5e5-e7f51a52c3f1 .
+inst:state_identityDataName_a8c7ee15-91e6-4278-b5e5-e7f51a52c3f1
+	a opm:CurrentPropertyState ;
+	schema:value "Party Wall - CMU Residential Unit Dimising Wall" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNtl7
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNtl7 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNtl7
+	opm:hasPropertyState inst:state_dimensionsLength_16366309-464b-41f2-aa56-76e19c82cfef .
+inst:state_dimensionsLength_16366309-464b-41f2-aa56-76e19c82cfef
+	a opm:CurrentPropertyState ;
+	schema:value "4191.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqHs
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqHs .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqHs
+	opm:hasPropertyState inst:state_identityDataName_fc795f05-d5c9-4cf6-9430-aa28d57c3c5d .
+inst:state_identityDataName_fc795f05-d5c9-4cf6-9430-aa28d57c3c5d
+	a opm:CurrentPropertyState ;
+	schema:value "Party Wall - CMU Residential Unit Dimising Wall" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqHs
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNqHs .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNqHs
+	opm:hasPropertyState inst:state_dimensionsLength_d1af9d77-e899-4bd6-ba46-976ed8627035 .
+inst:state_dimensionsLength_d1af9d77-e899-4bd6-ba46-976ed8627035
+	a opm:CurrentPropertyState ;
+	schema:value "4191.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqHB
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqHB .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqHB
+	opm:hasPropertyState inst:state_identityDataName_7bb23f3b-5450-4244-b014-fea718346558 .
+inst:state_identityDataName_7bb23f3b-5450-4244-b014-fea718346558
+	a opm:CurrentPropertyState ;
+	schema:value "Party Wall - CMU Residential Unit Dimising Wall" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqHB
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNqHB .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNqHB
+	opm:hasPropertyState inst:state_dimensionsLength_81202b5c-035c-4c7f-a17b-acd52db3ba20 .
+inst:state_dimensionsLength_81202b5c-035c-4c7f-a17b-acd52db3ba20
+	a opm:CurrentPropertyState ;
+	schema:value "2200"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqM7
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqM7 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqM7
+	opm:hasPropertyState inst:state_identityDataName_8c5b3998-5ba8-49a0-812e-8965b070b5ec .
+inst:state_identityDataName_8c5b3998-5ba8-49a0-812e-8965b070b5ec
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqM7
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNqM7 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNqM7
+	opm:hasPropertyState inst:state_dimensionsLength_4437c441-a057-418c-89d4-93a6f2acb086 .
+inst:state_dimensionsLength_4437c441-a057-418c-89d4-93a6f2acb086
+	a opm:CurrentPropertyState ;
+	schema:value "3195"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqOY
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqOY .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqOY
+	opm:hasPropertyState inst:state_identityDataName_dddfe1f9-b17e-4eca-9fb2-40b6b2d13bb2 .
+inst:state_identityDataName_dddfe1f9-b17e-4eca-9fb2-40b6b2d13bb2
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqOY
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNqOY .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNqOY
+	opm:hasPropertyState inst:state_dimensionsLength_65fe57b7-02e7-4e05-ad51-3bedb583cbc7 .
+inst:state_dimensionsLength_65fe57b7-02e7-4e05-ad51-3bedb583cbc7
+	a opm:CurrentPropertyState ;
+	schema:value "1594"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqQ6
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqQ6 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqQ6
+	opm:hasPropertyState inst:state_identityDataName_ba9602f4-c920-4a8d-a761-9c51d65eb274 .
+inst:state_identityDataName_ba9602f4-c920-4a8d-a761-9c51d65eb274
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqQ6
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNqQ6 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNqQ6
+	opm:hasPropertyState inst:state_dimensionsLength_7dbf8f67-9b82-42bb-9f13-5a7ebeaf8b03 .
+inst:state_dimensionsLength_7dbf8f67-9b82-42bb-9f13-5a7ebeaf8b03
+	a opm:CurrentPropertyState ;
+	schema:value "3791.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq2Q
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNq2Q .
+inst:identityDataName_1xS3BCk291UvhgP2dvNq2Q
+	opm:hasPropertyState inst:state_identityDataName_4a3c21d9-d9ad-441e-a8c6-1fe66e4531d7 .
+inst:state_identityDataName_4a3c21d9-d9ad-441e-a8c6-1fe66e4531d7
+	a opm:CurrentPropertyState ;
+	schema:value "Foundation - Concrete (417mm)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq2Q
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNq2Q .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNq2Q
+	opm:hasPropertyState inst:state_dimensionsLength_f50a3031-8b18-463e-86e6-05bfea5e9489 .
+inst:state_dimensionsLength_f50a3031-8b18-463e-86e6-05bfea5e9489
+	a opm:CurrentPropertyState ;
+	schema:value "8383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq3D
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNq3D .
+inst:identityDataName_1xS3BCk291UvhgP2dvNq3D
+	opm:hasPropertyState inst:state_identityDataName_8893de3d-2c57-4916-ab3d-dc5022f6ccc5 .
+inst:state_identityDataName_8893de3d-2c57-4916-ab3d-dc5022f6ccc5
+	a opm:CurrentPropertyState ;
+	schema:value "Foundation - Concrete (417mm)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq3D
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNq3D .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNq3D
+	opm:hasPropertyState inst:state_dimensionsLength_5593d7ea-5b60-40cb-b44f-4dbd8bcc626e .
+inst:state_dimensionsLength_5593d7ea-5b60-40cb-b44f-4dbd8bcc626e
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq4l
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNq4l .
+inst:identityDataName_1xS3BCk291UvhgP2dvNq4l
+	opm:hasPropertyState inst:state_identityDataName_393c733f-d4e4-4c0a-abd0-c8fdd4fa4127 .
+inst:state_identityDataName_393c733f-d4e4-4c0a-abd0-c8fdd4fa4127
+	a opm:CurrentPropertyState ;
+	schema:value "Foundation - Concrete (417mm)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq4l
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNq4l .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNq4l
+	opm:hasPropertyState inst:state_dimensionsLength_3a3b2232-a933-44d6-9ae1-bf5ae2635d3d .
+inst:state_dimensionsLength_3a3b2232-a933-44d6-9ae1-bf5ae2635d3d
+	a opm:CurrentPropertyState ;
+	schema:value "8383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq4V
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNq4V .
+inst:identityDataName_1xS3BCk291UvhgP2dvNq4V
+	opm:hasPropertyState inst:state_identityDataName_59af0c83-ebdb-4f99-b908-25cd17454d73 .
+inst:state_identityDataName_59af0c83-ebdb-4f99-b908-25cd17454d73
+	a opm:CurrentPropertyState ;
+	schema:value "Foundation - Concrete (417mm)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq4V
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNq4V .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNq4V
+	opm:hasPropertyState inst:state_dimensionsLength_f7df68ba-09c6-4def-8606-f9cc05da05b1 .
+inst:state_dimensionsLength_f7df68ba-09c6-4def-8606-f9cc05da05b1
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq9K
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNq9K .
+inst:identityDataName_1xS3BCk291UvhgP2dvNq9K
+	opm:hasPropertyState inst:state_identityDataName_2d403b2e-2390-4f46-867b-21ca6b7e900e .
+inst:state_identityDataName_2d403b2e-2390-4f46-867b-21ca6b7e900e
+	a opm:CurrentPropertyState ;
+	schema:value "Foundation - Concrete (435mm)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNq9K
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNq9K .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNq9K
+	opm:hasPropertyState inst:state_dimensionsLength_cddd8fe3-fb82-48e5-af95-d1f904393cc8 .
+inst:state_dimensionsLength_cddd8fe3-fb82-48e5-af95-d1f904393cc8
+	a opm:CurrentPropertyState ;
+	schema:value "4191.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqAU
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqAU .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqAU
+	opm:hasPropertyState inst:state_identityDataName_deee6531-9655-4d38-bb04-c0cd7fbf1539 .
+inst:state_identityDataName_deee6531-9655-4d38-bb04-c0cd7fbf1539
+	a opm:CurrentPropertyState ;
+	schema:value "Foundation - Concrete (435mm)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqAU
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNqAU .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNqAU
+	opm:hasPropertyState inst:state_dimensionsLength_c05db602-d827-4e4d-bf2a-3d304b7e0ced .
+inst:state_dimensionsLength_c05db602-d827-4e4d-bf2a-3d304b7e0ced
+	a opm:CurrentPropertyState ;
+	schema:value "4191.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqB%24
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqB%24 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqB%24
+	opm:hasPropertyState inst:state_identityDataName_136cd82c-d70c-4507-ae5c-0fdfac0e67a1 .
+inst:state_identityDataName_136cd82c-d70c-4507-ae5c-0fdfac0e67a1
+	a opm:CurrentPropertyState ;
+	schema:value "Foundation - Concrete (435mm)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqB%24
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNqB%24 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNqB%24
+	opm:hasPropertyState inst:state_dimensionsLength_21672f1a-9c09-4ce8-b322-f3b9fdfe2dbc .
+inst:state_dimensionsLength_21672f1a-9c09-4ce8-b322-f3b9fdfe2dbc
+	a opm:CurrentPropertyState ;
+	schema:value "2200"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqkY
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqkY .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqkY
+	opm:hasPropertyState inst:state_identityDataName_fb0cbd6d-8c2e-4ccf-a5d6-3fd84777ab3f .
+inst:state_identityDataName_fb0cbd6d-8c2e-4ccf-a5d6-3fd84777ab3f
+	a opm:CurrentPropertyState ;
+	schema:value "Party Wall - CMU Residential Unit Dimising Wall" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNqkY
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNqkY .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNqkY
+	opm:hasPropertyState inst:state_dimensionsLength_68ae955d-ef6d-401b-8b55-18e7df09452c .
+inst:state_dimensionsLength_68ae955d-ef6d-401b-8b55-18e7df09452c
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrGN
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrGN .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrGN
+	opm:hasPropertyState inst:state_identityDataName_467d8f90-0e87-48ca-b133-ed99b7ebd907 .
+inst:state_identityDataName_467d8f90-0e87-48ca-b133-ed99b7ebd907
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrGN
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrGN .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrGN
+	opm:hasPropertyState inst:state_dimensionsLength_cebaa686-4637-4bb9-811a-d3c8b2a322ec .
+inst:state_dimensionsLength_cebaa686-4637-4bb9-811a-d3c8b2a322ec
+	a opm:CurrentPropertyState ;
+	schema:value "8383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrHJ
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrHJ .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrHJ
+	opm:hasPropertyState inst:state_identityDataName_93126f41-ffa1-4775-9d29-06ca55f7d893 .
+inst:state_identityDataName_93126f41-ffa1-4775-9d29-06ca55f7d893
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrHJ
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrHJ .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrHJ
+	opm:hasPropertyState inst:state_dimensionsLength_ca8847d7-0fce-46b6-a617-3d8bd950df8d .
+inst:state_dimensionsLength_ca8847d7-0fce-46b6-a617-3d8bd950df8d
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrIB
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrIB .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrIB
+	opm:hasPropertyState inst:state_identityDataName_28533a41-651c-45bc-84c2-5d704ffd3bec .
+inst:state_identityDataName_28533a41-651c-45bc-84c2-5d704ffd3bec
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrIB
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrIB .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrIB
+	opm:hasPropertyState inst:state_dimensionsLength_35433135-13fb-4927-b1d5-d6fe84e44913 .
+inst:state_dimensionsLength_35433135-13fb-4927-b1d5-d6fe84e44913
+	a opm:CurrentPropertyState ;
+	schema:value "8383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrJ3
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrJ3 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrJ3
+	opm:hasPropertyState inst:state_identityDataName_c49fe726-94e2-495d-9b50-26977dc298a7 .
+inst:state_identityDataName_c49fe726-94e2-495d-9b50-26977dc298a7
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrJ3
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrJ3 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrJ3
+	opm:hasPropertyState inst:state_dimensionsLength_ad6ec2de-280f-40ef-be8d-f5a97cb7f616 .
+inst:state_dimensionsLength_ad6ec2de-280f-40ef-be8d-f5a97cb7f616
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrNL
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrNL .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrNL
+	opm:hasPropertyState inst:state_identityDataName_bfe61f38-3f46-4cbb-8bf1-105685008deb .
+inst:state_identityDataName_bfe61f38-3f46-4cbb-8bf1-105685008deb
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrNL
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrNL .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrNL
+	opm:hasPropertyState inst:state_dimensionsLength_4f27b65a-3fb0-48e3-8c20-4814c2fea6b6 .
+inst:state_dimensionsLength_4f27b65a-3fb0-48e3-8c20-4814c2fea6b6
+	a opm:CurrentPropertyState ;
+	schema:value "2235.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrOK
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrOK .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrOK
+	opm:hasPropertyState inst:state_identityDataName_9103d17a-6f34-43b0-97cb-3dcf39712d09 .
+inst:state_identityDataName_9103d17a-6f34-43b0-97cb-3dcf39712d09
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrOK
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrOK .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrOK
+	opm:hasPropertyState inst:state_dimensionsLength_9757d4a4-d43b-4f7a-820c-6874ac2366a1 .
+inst:state_dimensionsLength_9757d4a4-d43b-4f7a-820c-6874ac2366a1
+	a opm:CurrentPropertyState ;
+	schema:value "5424"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrPz
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrPz .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrPz
+	opm:hasPropertyState inst:state_identityDataName_84dce767-2fe1-4b19-ad77-67be2eebb495 .
+inst:state_identityDataName_84dce767-2fe1-4b19-ad77-67be2eebb495
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrPz
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrPz .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrPz
+	opm:hasPropertyState inst:state_dimensionsLength_60b8039f-9bfb-400f-9d5c-95777c4744ae .
+inst:state_dimensionsLength_60b8039f-9bfb-400f-9d5c-95777c4744ae
+	a opm:CurrentPropertyState ;
+	schema:value "2235.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrSl
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrSl .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrSl
+	opm:hasPropertyState inst:state_identityDataName_601e931e-4dbc-45f4-9de8-8f4e92e68a0e .
+inst:state_identityDataName_601e931e-4dbc-45f4-9de8-8f4e92e68a0e
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Plumbing (152mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrSl
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrSl .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrSl
+	opm:hasPropertyState inst:state_dimensionsLength_1e6f2d1f-95a5-4915-bb0a-801c79a7002e .
+inst:state_dimensionsLength_1e6f2d1f-95a5-4915-bb0a-801c79a7002e
+	a opm:CurrentPropertyState ;
+	schema:value "1956"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrU8
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrU8 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrU8
+	opm:hasPropertyState inst:state_identityDataName_f358b08b-a06b-4a16-8a37-fe4f7fd7dfcb .
+inst:state_identityDataName_f358b08b-a06b-4a16-8a37-fe4f7fd7dfcb
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNrU8
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNrU8 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNrU8
+	opm:hasPropertyState inst:state_dimensionsLength_4aff5530-dcf4-44ee-8283-8def96699973 .
+inst:state_dimensionsLength_4aff5530-dcf4-44ee-8283-8def96699973
+	a opm:CurrentPropertyState ;
+	schema:value "1956"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr2Z
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNr2Z .
+inst:identityDataName_1xS3BCk291UvhgP2dvNr2Z
+	opm:hasPropertyState inst:state_identityDataName_3a37d1ac-1e36-4b35-bd9e-0ff8646d8f76 .
+inst:state_identityDataName_3a37d1ac-1e36-4b35-bd9e-0ff8646d8f76
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr2Z
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNr2Z .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNr2Z
+	opm:hasPropertyState inst:state_dimensionsLength_bab2999a-ac9e-4f2f-b33d-901bc991f3a3 .
+inst:state_dimensionsLength_bab2999a-ac9e-4f2f-b33d-901bc991f3a3
+	a opm:CurrentPropertyState ;
+	schema:value "2235.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr3l
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNr3l .
+inst:identityDataName_1xS3BCk291UvhgP2dvNr3l
+	opm:hasPropertyState inst:state_identityDataName_574f0035-cc03-41e9-bb3d-28fec4e370d1 .
+inst:state_identityDataName_574f0035-cc03-41e9-bb3d-28fec4e370d1
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr3l
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNr3l .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNr3l
+	opm:hasPropertyState inst:state_dimensionsLength_23332f79-6ce3-4d64-8e4a-1d0039a10a97 .
+inst:state_dimensionsLength_23332f79-6ce3-4d64-8e4a-1d0039a10a97
+	a opm:CurrentPropertyState ;
+	schema:value "5424"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr3S
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNr3S .
+inst:identityDataName_1xS3BCk291UvhgP2dvNr3S
+	opm:hasPropertyState inst:state_identityDataName_e2c0735e-8581-48a9-a265-f518360073f3 .
+inst:state_identityDataName_e2c0735e-8581-48a9-a265-f518360073f3
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr3S
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNr3S .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNr3S
+	opm:hasPropertyState inst:state_dimensionsLength_c104c18a-9392-4889-bee6-e14edb8b5fc3 .
+inst:state_dimensionsLength_c104c18a-9392-4889-bee6-e14edb8b5fc3
+	a opm:CurrentPropertyState ;
+	schema:value "2235.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr49
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNr49 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNr49
+	opm:hasPropertyState inst:state_identityDataName_15af2511-a61a-4b3e-be4d-24a5cd2b325a .
+inst:state_identityDataName_15af2511-a61a-4b3e-be4d-24a5cd2b325a
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr49
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNr49 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNr49
+	opm:hasPropertyState inst:state_dimensionsLength_392ac1e1-9722-4c21-a5fd-f8f18650e771 .
+inst:state_dimensionsLength_392ac1e1-9722-4c21-a5fd-f8f18650e771
+	a opm:CurrentPropertyState ;
+	schema:value "1956"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr6g
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNr6g .
+inst:identityDataName_1xS3BCk291UvhgP2dvNr6g
+	opm:hasPropertyState inst:state_identityDataName_2bfe73ec-eed1-46e8-8a4e-ee4518307954 .
+inst:state_identityDataName_2bfe73ec-eed1-46e8-8a4e-ee4518307954
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Plumbing (152mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNr6g
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNr6g .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNr6g
+	opm:hasPropertyState inst:state_dimensionsLength_6bc9dcdb-60c7-4000-96fd-1d7c6e3a0394 .
+inst:state_dimensionsLength_6bc9dcdb-60c7-4000-96fd-1d7c6e3a0394
+	a opm:CurrentPropertyState ;
+	schema:value "1956"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNxPL
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNxPL .
+inst:identityDataName_1xS3BCk291UvhgP2dvNxPL
+	opm:hasPropertyState inst:state_identityDataName_276dad17-de37-4989-ae33-24c5fd72dccb .
+inst:state_identityDataName_276dad17-de37-4989-ae33-24c5fd72dccb
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNxPL
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNxPL .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNxPL
+	opm:hasPropertyState inst:state_dimensionsLength_7768ae84-b2d2-455a-bde2-4a53ebf315e7 .
+inst:state_dimensionsLength_7768ae84-b2d2-455a-bde2-4a53ebf315e7
+	a opm:CurrentPropertyState ;
+	schema:value "8383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNxQJ
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNxQJ .
+inst:identityDataName_1xS3BCk291UvhgP2dvNxQJ
+	opm:hasPropertyState inst:state_identityDataName_2f0d0c0c-7182-4bbf-a074-a0b1a9b175b1 .
+inst:state_identityDataName_2f0d0c0c-7182-4bbf-a074-a0b1a9b175b1
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNxQJ
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNxQJ .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNxQJ
+	opm:hasPropertyState inst:state_dimensionsLength_e6c5e707-d2a4-41d0-ad45-493b86404ff9 .
+inst:state_dimensionsLength_e6c5e707-d2a4-41d0-ad45-493b86404ff9
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNxRD
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNxRD .
+inst:identityDataName_1xS3BCk291UvhgP2dvNxRD
+	opm:hasPropertyState inst:state_identityDataName_399235f4-dca5-477a-8fbc-d848fab84a5e .
+inst:state_identityDataName_399235f4-dca5-477a-8fbc-d848fab84a5e
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNxRD
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNxRD .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNxRD
+	opm:hasPropertyState inst:state_dimensionsLength_f8f68c6f-8c77-4705-bcf1-22ab47ba7daa .
+inst:state_dimensionsLength_f8f68c6f-8c77-4705-bcf1-22ab47ba7daa
+	a opm:CurrentPropertyState ;
+	schema:value "8383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNxSe
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNxSe .
+inst:identityDataName_1xS3BCk291UvhgP2dvNxSe
+	opm:hasPropertyState inst:state_identityDataName_7bac517d-e70d-4bf0-99c4-f9fe66d0a8ac .
+inst:state_identityDataName_7bac517d-e70d-4bf0-99c4-f9fe66d0a8ac
+	a opm:CurrentPropertyState ;
+	schema:value "Exterior - Brick on Block" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNxSe
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNxSe .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNxSe
+	opm:hasPropertyState inst:state_dimensionsLength_b5cd030e-4957-41a3-a27f-a14f0497b0b9 .
+inst:state_dimensionsLength_b5cd030e-4957-41a3-a27f-a14f0497b0b9
+	a opm:CurrentPropertyState ;
+	schema:value "17383"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNuQt
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNuQt .
+inst:identityDataName_1xS3BCk291UvhgP2dvNuQt
+	opm:hasPropertyState inst:state_identityDataName_693387d2-9386-4b4c-8f8b-c5de48a6079e .
+inst:state_identityDataName_693387d2-9386-4b4c-8f8b-c5de48a6079e
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (152 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNuQt
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNuQt .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNuQt
+	opm:hasPropertyState inst:state_dimensionsLength_914078d6-8a3c-4d83-977e-ee3d91e4bb1c .
+inst:state_dimensionsLength_914078d6-8a3c-4d83-977e-ee3d91e4bb1c
+	a opm:CurrentPropertyState ;
+	schema:value "4485.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNu7e
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNu7e .
+inst:identityDataName_1xS3BCk291UvhgP2dvNu7e
+	opm:hasPropertyState inst:state_identityDataName_f20d1061-e41b-4bcc-9e68-01f7f55329bc .
+inst:state_identityDataName_f20d1061-e41b-4bcc-9e68-01f7f55329bc
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (152 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNu7e
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNu7e .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNu7e
+	opm:hasPropertyState inst:state_dimensionsLength_7f4b4b37-d989-4457-9989-be2d49924f1e .
+inst:state_dimensionsLength_7f4b4b37-d989-4457-9989-be2d49924f1e
+	a opm:CurrentPropertyState ;
+	schema:value "2508"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNuAP
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNuAP .
+inst:identityDataName_1xS3BCk291UvhgP2dvNuAP
+	opm:hasPropertyState inst:state_identityDataName_debb5295-d030-4c6a-846f-048b5519f6dd .
+inst:state_identityDataName_debb5295-d030-4c6a-846f-048b5519f6dd
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNuAP
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNuAP .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNuAP
+	opm:hasPropertyState inst:state_dimensionsLength_7dcd762c-ab27-4231-8fc1-8213810c20ed .
+inst:state_dimensionsLength_7dcd762c-ab27-4231-8fc1-8213810c20ed
+	a opm:CurrentPropertyState ;
+	schema:value "1594"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNuqJ
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNuqJ .
+inst:identityDataName_1xS3BCk291UvhgP2dvNuqJ
+	opm:hasPropertyState inst:state_identityDataName_cc3ef7b4-79ec-4cd2-8e6b-eac4f89713ee .
+inst:state_identityDataName_cc3ef7b4-79ec-4cd2-8e6b-eac4f89713ee
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (152 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNuqJ
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNuqJ .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNuqJ
+	opm:hasPropertyState inst:state_dimensionsLength_da228776-8741-4b9b-8bbd-4c1c588de6b5 .
+inst:state_dimensionsLength_da228776-8741-4b9b-8bbd-4c1c588de6b5
+	a opm:CurrentPropertyState ;
+	schema:value "2508"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNutm
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNutm .
+inst:identityDataName_1xS3BCk291UvhgP2dvNutm
+	opm:hasPropertyState inst:state_identityDataName_c55e2511-de96-46f5-b953-0fe1338a8665 .
+inst:state_identityDataName_c55e2511-de96-46f5-b953-0fe1338a8665
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (152 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNutm
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNutm .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNutm
+	opm:hasPropertyState inst:state_dimensionsLength_2fca28a6-1ae8-4064-a95b-1a9c11215a75 .
+inst:state_dimensionsLength_2fca28a6-1ae8-4064-a95b-1a9c11215a75
+	a opm:CurrentPropertyState ;
+	schema:value "4485.5"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNvRw
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvRw .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvRw
+	opm:hasPropertyState inst:state_identityDataName_22e3e359-39fc-4830-865a-fcc296414cf4 .
+inst:state_identityDataName_22e3e359-39fc-4830-865a-fcc296414cf4
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (152 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNvRw
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNvRw .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNvRw
+	opm:hasPropertyState inst:state_dimensionsLength_d487afdc-14cd-4b67-a791-6d8bf08a1979 .
+inst:state_dimensionsLength_d487afdc-14cd-4b67-a791-6d8bf08a1979
+	a opm:CurrentPropertyState ;
+	schema:value "4314"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNv9J
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNv9J .
+inst:identityDataName_1xS3BCk291UvhgP2dvNv9J
+	opm:hasPropertyState inst:state_identityDataName_8f1c68dc-a313-4991-bd6c-589b82773016 .
+inst:state_identityDataName_8f1c68dc-a313-4991-bd6c-589b82773016
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (152 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNv9J
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNv9J .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNv9J
+	opm:hasPropertyState inst:state_dimensionsLength_96d6c144-1c4c-435d-b57f-1c9863d3aaa4 .
+inst:state_dimensionsLength_96d6c144-1c4c-435d-b57f-1c9863d3aaa4
+	a opm:CurrentPropertyState ;
+	schema:value "4314"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNdvs
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNdvs .
+inst:identityDataName_1xS3BCk291UvhgP2dvNdvs
+	opm:hasPropertyState inst:state_identityDataName_0183cd75-94c8-4254-b266-1917100d5a12 .
+inst:state_identityDataName_0183cd75-94c8-4254-b266-1917100d5a12
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNdvs
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNdvs .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNdvs
+	opm:hasPropertyState inst:state_dimensionsLength_9944bff3-efef-4ef6-abfc-0b99493ccd3e .
+inst:state_dimensionsLength_9944bff3-efef-4ef6-abfc-0b99493ccd3e
+	a opm:CurrentPropertyState ;
+	schema:value "1662"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNdZx
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNdZx .
+inst:identityDataName_1xS3BCk291UvhgP2dvNdZx
+	opm:hasPropertyState inst:state_identityDataName_32ec139e-8685-4007-bc96-e21c13367d97 .
+inst:state_identityDataName_32ec139e-8685-4007-bc96-e21c13367d97
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNdZx
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNdZx .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNdZx
+	opm:hasPropertyState inst:state_dimensionsLength_b5403628-4393-477b-8295-1554618d8feb .
+inst:state_dimensionsLength_b5403628-4393-477b-8295-1554618d8feb
+	a opm:CurrentPropertyState ;
+	schema:value "1662"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNdef
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNdef .
+inst:identityDataName_1xS3BCk291UvhgP2dvNdef
+	opm:hasPropertyState inst:state_identityDataName_985f8f8b-2732-4c83-8327-e06d6d69a6b8 .
+inst:state_identityDataName_985f8f8b-2732-4c83-8327-e06d6d69a6b8
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNdef
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNdef .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNdef
+	opm:hasPropertyState inst:state_dimensionsLength_b9407f7e-e6dd-4406-b721-8e1724f85ffe .
+inst:state_dimensionsLength_b9407f7e-e6dd-4406-b721-8e1724f85ffe
+	a opm:CurrentPropertyState ;
+	schema:value "3812"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNdhe
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNdhe .
+inst:identityDataName_1xS3BCk291UvhgP2dvNdhe
+	opm:hasPropertyState inst:state_identityDataName_5de41b7a-a9cf-4a02-ac33-c68926ab9c04 .
+inst:state_identityDataName_5de41b7a-a9cf-4a02-ac33-c68926ab9c04
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Partition (92mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNdhe
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNdhe .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNdhe
+	opm:hasPropertyState inst:state_dimensionsLength_1cfcc8c4-f757-47c6-86f1-c63e27541b18 .
+inst:state_dimensionsLength_1cfcc8c4-f757-47c6-86f1-c63e27541b18
+	a opm:CurrentPropertyState ;
+	schema:value "3812"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZLZ
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNZLZ .
+inst:identityDataName_1xS3BCk291UvhgP2dvNZLZ
+	opm:hasPropertyState inst:state_identityDataName_3ebca543-032e-4846-b689-890049e9e66a .
+inst:state_identityDataName_3ebca543-032e-4846-b689-890049e9e66a
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (38 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZLZ
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNZLZ .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNZLZ
+	opm:hasPropertyState inst:state_dimensionsLength_b01e434b-db65-4333-b81d-e6832490dbf5 .
+inst:state_dimensionsLength_b01e434b-db65-4333-b81d-e6832490dbf5
+	a opm:CurrentPropertyState ;
+	schema:value "1083.1"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZLY
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNZLY .
+inst:identityDataName_1xS3BCk291UvhgP2dvNZLY
+	opm:hasPropertyState inst:state_identityDataName_63ac86be-71de-461a-8052-27c8a84861ce .
+inst:state_identityDataName_63ac86be-71de-461a-8052-27c8a84861ce
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (38 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZLY
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNZLY .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNZLY
+	opm:hasPropertyState inst:state_dimensionsLength_81daf0bc-b313-42c9-948f-62b793b8ab24 .
+inst:state_dimensionsLength_81daf0bc-b313-42c9-948f-62b793b8ab24
+	a opm:CurrentPropertyState ;
+	schema:value "1135.1"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZLj
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNZLj .
+inst:identityDataName_1xS3BCk291UvhgP2dvNZLj
+	opm:hasPropertyState inst:state_identityDataName_56858cb2-dc38-44ac-bbe4-01b1a9453fbf .
+inst:state_identityDataName_56858cb2-dc38-44ac-bbe4-01b1a9453fbf
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (38 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZLj
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNZLj .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNZLj
+	opm:hasPropertyState inst:state_dimensionsLength_083fe8d8-23d8-4cac-9f01-685cac3f49a4 .
+inst:state_dimensionsLength_083fe8d8-23d8-4cac-9f01-685cac3f49a4
+	a opm:CurrentPropertyState ;
+	schema:value "1083.1"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZLi
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNZLi .
+inst:identityDataName_1xS3BCk291UvhgP2dvNZLi
+	opm:hasPropertyState inst:state_identityDataName_82232351-8ab4-4f8b-9783-9dc88d18ec4a .
+inst:state_identityDataName_82232351-8ab4-4f8b-9783-9dc88d18ec4a
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (38 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZLi
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNZLi .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNZLi
+	opm:hasPropertyState inst:state_dimensionsLength_2ddcc1f9-1de2-4553-a3ce-fddbd620867e .
+inst:state_dimensionsLength_2ddcc1f9-1de2-4553-a3ce-fddbd620867e
+	a opm:CurrentPropertyState ;
+	schema:value "1135.1"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZNC
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNZNC .
+inst:identityDataName_1xS3BCk291UvhgP2dvNZNC
+	opm:hasPropertyState inst:state_identityDataName_4cb93c47-d64e-4d81-8c0e-311896d7c12f .
+inst:state_identityDataName_4cb93c47-d64e-4d81-8c0e-311896d7c12f
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (38 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZNC
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNZNC .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNZNC
+	opm:hasPropertyState inst:state_dimensionsLength_dda8ac76-1255-4f50-964e-bd010f210065 .
+inst:state_dimensionsLength_dda8ac76-1255-4f50-964e-bd010f210065
+	a opm:CurrentPropertyState ;
+	schema:value "1083.1"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZNF
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNZNF .
+inst:identityDataName_1xS3BCk291UvhgP2dvNZNF
+	opm:hasPropertyState inst:state_identityDataName_d9f7c00b-0038-4e58-ac29-e8770684594d .
+inst:state_identityDataName_d9f7c00b-0038-4e58-ac29-e8770684594d
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (38 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZNF
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNZNF .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNZNF
+	opm:hasPropertyState inst:state_dimensionsLength_dc893ac0-e6ba-4f3d-bcc0-199ce0ba0653 .
+inst:state_dimensionsLength_dc893ac0-e6ba-4f3d-bcc0-199ce0ba0653
+	a opm:CurrentPropertyState ;
+	schema:value "1135.1"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZNE
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNZNE .
+inst:identityDataName_1xS3BCk291UvhgP2dvNZNE
+	opm:hasPropertyState inst:state_identityDataName_2e430908-ea92-4439-a76a-395c5da70d48 .
+inst:state_identityDataName_2e430908-ea92-4439-a76a-395c5da70d48
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (38 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZNE
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNZNE .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNZNE
+	opm:hasPropertyState inst:state_dimensionsLength_6304ebd9-3524-47ff-8396-e1a564c2db42 .
+inst:state_dimensionsLength_6304ebd9-3524-47ff-8396-e1a564c2db42
+	a opm:CurrentPropertyState ;
+	schema:value "1083.1"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZN9
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNZN9 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNZN9
+	opm:hasPropertyState inst:state_identityDataName_46441f32-fe07-452a-b8a6-c0a3911c2f10 .
+inst:state_identityDataName_46441f32-fe07-452a-b8a6-c0a3911c2f10
+	a opm:CurrentPropertyState ;
+	schema:value "Interior - Furring (38 mm Stud)" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:wall_1xS3BCk291UvhgP2dvNZN9
+	props:dimensionsLength inst:dimensionsLength_1xS3BCk291UvhgP2dvNZN9 .
+inst:dimensionsLength_1xS3BCk291UvhgP2dvNZN9
+	opm:hasPropertyState inst:state_dimensionsLength_cc35c95a-8151-4461-80cd-781081d543fe .
+inst:state_dimensionsLength_cc35c95a-8151-4461-80cd-781081d543fe
+	a opm:CurrentPropertyState ;
+	schema:value "1135.1"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+
+# WALLTYPES
+inst:Curtain_Wall rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNMLh
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNMLh
+	opm:hasPropertyState inst:state_dimensionsWidth_feb1c0f6-f03a-4953-aa9f-6900cd5cbe33 .
+inst:state_dimensionsWidth_feb1c0f6-f03a-4953-aa9f-6900cd5cbe33
+	a opm:CurrentPropertyState ;
+	schema:value "25"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Exterior_-_Brick_on_Mtl._Stud rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNMMe
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNMMe
+	opm:hasPropertyState inst:state_dimensionsWidth_5a5063f6-29f5-49cb-9587-214b8d090626 .
+inst:state_dimensionsWidth_5a5063f6-29f5-49cb-9587-214b8d090626
+	a opm:CurrentPropertyState ;
+	schema:value "302"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Retaining_-_Concrete_300mm rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNK3s
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNK3s
+	opm:hasPropertyState inst:state_dimensionsWidth_17c0b09e-c51d-49de-8d9c-2be7b1009246 .
+inst:state_dimensionsWidth_17c0b09e-c51d-49de-8d9c-2be7b1009246
+	a opm:CurrentPropertyState ;
+	schema:value "300"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Exterior_Glazing rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNHMD
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNHMD
+	opm:hasPropertyState inst:state_dimensionsWidth_7ef865bf-0ae3-4bdc-917e-90ac1568aace .
+inst:state_dimensionsWidth_7ef865bf-0ae3-4bdc-917e-90ac1568aace
+	a opm:CurrentPropertyState ;
+	schema:value "25"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Storefront rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNHMC
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNHMC
+	opm:hasPropertyState inst:state_dimensionsWidth_cd316e35-b109-43c9-88ed-d0c7a27fa920 .
+inst:state_dimensionsWidth_cd316e35-b109-43c9-88ed-d0c7a27fa920
+	a opm:CurrentPropertyState ;
+	schema:value "25"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Exterior_-_Insul_Panel_Over_Brick_w_Metal_Stud rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNR4i
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNR4i
+	opm:hasPropertyState inst:state_dimensionsWidth_f8f1a1a8-a6ba-4da8-80e4-e75b7a1060e7 .
+inst:state_dimensionsWidth_f8f1a1a8-a6ba-4da8-80e4-e75b7a1060e7
+	a opm:CurrentPropertyState ;
+	schema:value "302"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Interior_-_Partition_92mm_Stud rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN95D
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN95D
+	opm:hasPropertyState inst:state_dimensionsWidth_f4320684-92a8-47a9-b523-459f5f5b8d4e .
+inst:state_dimensionsWidth_f4320684-92a8-47a9-b523-459f5f5b8d4e
+	a opm:CurrentPropertyState ;
+	schema:value "124"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Interior_-_Plumbing_152mm_Stud rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN95R
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN95R
+	opm:hasPropertyState inst:state_dimensionsWidth_18848b26-dc88-4bc5-99ee-e0f537a816e6 .
+inst:state_dimensionsWidth_18848b26-dc88-4bc5-99ee-e0f537a816e6
+	a opm:CurrentPropertyState ;
+	schema:value "184"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Interior_-_Furring_38_mm_Stud rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN96n
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN96n
+	opm:hasPropertyState inst:state_dimensionsWidth_cad5c132-ce38-4cdc-b869-ede6e31ab5b2 .
+inst:state_dimensionsWidth_cad5c132-ce38-4cdc-b869-ede6e31ab5b2
+	a opm:CurrentPropertyState ;
+	schema:value "54"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Interior_-_Rated_1-HR_92mm_Stud rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN96F
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN96F
+	opm:hasPropertyState inst:state_dimensionsWidth_9bbf3891-28cf-442b-aa33-f08528f66d11 .
+inst:state_dimensionsWidth_9bbf3891-28cf-442b-aa33-f08528f66d11
+	a opm:CurrentPropertyState ;
+	schema:value "124"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Interior_-_CMU_Rated_2-HR rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN97k
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN97k
+	opm:hasPropertyState inst:state_dimensionsWidth_b1f37365-3af5-4e91-96ca-8d08e6ded4b8 .
+inst:state_dimensionsWidth_b1f37365-3af5-4e91-96ca-8d08e6ded4b8
+	a opm:CurrentPropertyState ;
+	schema:value "194"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Interior_-_Toilet_Partition_25mm rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN97E
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN97E
+	opm:hasPropertyState inst:state_dimensionsWidth_6cb97a10-a895-48d6-8f3d-8cab1598eaea .
+inst:state_dimensionsWidth_6cb97a10-a895-48d6-8f3d-8cab1598eaea
+	a opm:CurrentPropertyState ;
+	schema:value "25"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Party_Wall_-_CMU_Residential_Unit_Dimising_Wall rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN98E
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN98E
+	opm:hasPropertyState inst:state_dimensionsWidth_6e0d7478-8e6d-4fdb-9560-f6ab211b68b5 .
+inst:state_dimensionsWidth_6e0d7478-8e6d-4fdb-9560-f6ab211b68b5
+	a opm:CurrentPropertyState ;
+	schema:value "550"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Foundation_-_Concrete_264mm rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN99z
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN99z
+	opm:hasPropertyState inst:state_dimensionsWidth_bd6dd9d4-b363-4ab2-ad9d-f7f13e7d1656 .
+inst:state_dimensionsWidth_bd6dd9d4-b363-4ab2-ad9d-f7f13e7d1656
+	a opm:CurrentPropertyState ;
+	schema:value "264"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Foundation_-_Concrete_350mm rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN99T
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN99T
+	opm:hasPropertyState inst:state_dimensionsWidth_812fc8a7-99d3-4d5b-ae5d-4707c81a32c6 .
+inst:state_dimensionsWidth_812fc8a7-99d3-4d5b-ae5d-4707c81a32c6
+	a opm:CurrentPropertyState ;
+	schema:value "350"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Foundation_-_Concrete_417mm rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN9A1
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN9A1
+	opm:hasPropertyState inst:state_dimensionsWidth_ba792ea9-f6d1-4168-98d4-90af6f4ee644 .
+inst:state_dimensionsWidth_ba792ea9-f6d1-4168-98d4-90af6f4ee644
+	a opm:CurrentPropertyState ;
+	schema:value "417"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Exterior_-_Brick_on_Block rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN9jf
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN9jf
+	opm:hasPropertyState inst:state_dimensionsWidth_a6e3fcc0-beb7-424b-8eb8-2a537ba283fe .
+inst:state_dimensionsWidth_a6e3fcc0-beb7-424b-8eb8-2a537ba283fe
+	a opm:CurrentPropertyState ;
+	schema:value "417"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Exterior_-_Insul_Panel_on_Mtl._Stud rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvN9kl
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvN9kl
+	opm:hasPropertyState inst:state_dimensionsWidth_f022c704-5a4d-4baf-b53a-5102377b7f24 .
+inst:state_dimensionsWidth_f022c704-5a4d-4baf-b53a-5102377b7f24
+	a opm:CurrentPropertyState ;
+	schema:value "267"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Foundation_-_Concrete_300mm rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNsH1
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNsH1
+	opm:hasPropertyState inst:state_dimensionsWidth_73b26bcc-b354-46a9-8f2a-3056589f8127 .
+inst:state_dimensionsWidth_73b26bcc-b354-46a9-8f2a-3056589f8127
+	a opm:CurrentPropertyState ;
+	schema:value "300"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Chain_Link_Fence rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNtCF
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNtCF
+	opm:hasPropertyState inst:state_dimensionsWidth_c0a336f9-8305-4d71-b605-64fdd4799150 .
+inst:state_dimensionsWidth_c0a336f9-8305-4d71-b605-64fdd4799150
+	a opm:CurrentPropertyState ;
+	schema:value "25"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Interior_-_Furring_152_mm_Stud rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNxcs
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNxcs
+	opm:hasPropertyState inst:state_dimensionsWidth_3945dc07-ddfa-4843-8b22-0f041a3d7429 .
+inst:state_dimensionsWidth_3945dc07-ddfa-4843-8b22-0f041a3d7429
+	a opm:CurrentPropertyState ;
+	schema:value "152"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:Foundation_-_Concrete_435mm rdfs:subClassOf [
+	a owl:Restriction ;
+	owl:onProperty props:dimensionsWidth ;
+	owl:hasValue inst:dimensionsWidth_1xS3BCk291UvhgP2dvNaqF
+] .
+inst:dimensionsWidth_1xS3BCk291UvhgP2dvNaqF
+	opm:hasPropertyState inst:state_dimensionsWidth_4ee7059f-2c9c-48cc-848d-b15b1e982edc .
+inst:state_dimensionsWidth_4ee7059f-2c9c-48cc-848d-b15b1e982edc
+	a opm:CurrentPropertyState ;
+	schema:value "435"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+
+# FLOORS
+inst:floor_1xS3BCk291UvhgP2dvNqEL
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqEL .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqEL
+	opm:hasPropertyState inst:state_identityDataName_72f0998f-a556-4005-90d2-accc417ae713 .
+inst:state_identityDataName_72f0998f-a556-4005-90d2-accc417ae713
+	a opm:CurrentPropertyState ;
+	schema:value "127mm Slab on Grade" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvNqid
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNqid .
+inst:identityDataName_1xS3BCk291UvhgP2dvNqid
+	opm:hasPropertyState inst:state_identityDataName_76f3f3d4-6d2d-494b-ab30-a089da478946 .
+inst:state_identityDataName_76f3f3d4-6d2d-494b-ab30-a089da478946
+	a opm:CurrentPropertyState ;
+	schema:value "127mm Slab on Grade" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvNr65
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNr65 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNr65
+	opm:hasPropertyState inst:state_identityDataName_fb019075-c206-4597-8647-5e33463b732a .
+inst:state_identityDataName_fb019075-c206-4597-8647-5e33463b732a
+	a opm:CurrentPropertyState ;
+	schema:value "Residential - Wood Joist with Subflooring" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvNr7D
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNr7D .
+inst:identityDataName_1xS3BCk291UvhgP2dvNr7D
+	opm:hasPropertyState inst:state_identityDataName_c83616fe-d9f8-4657-a677-25b088403bdf .
+inst:state_identityDataName_c83616fe-d9f8-4657-a677-25b088403bdf
+	a opm:CurrentPropertyState ;
+	schema:value "Residential - Wood Joist with Subflooring" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%242W
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%242W .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%242W
+	opm:hasPropertyState inst:state_identityDataName_7997e21b-ad7a-429a-b73f-97cbad9bbe4a .
+inst:state_identityDataName_7997e21b-ad7a-429a-b73f-97cbad9bbe4a
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Wood" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%2431
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%2431 .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%2431
+	opm:hasPropertyState inst:state_identityDataName_55675234-8248-4b93-9681-246e32ed2322 .
+inst:state_identityDataName_55675234-8248-4b93-9681-246e32ed2322
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Wood" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%245v
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%245v .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%245v
+	opm:hasPropertyState inst:state_identityDataName_cbb196b1-ebec-4399-8223-03fc7fb4d4db .
+inst:state_identityDataName_cbb196b1-ebec-4399-8223-03fc7fb4d4db
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Wood" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%246l
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%246l .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%246l
+	opm:hasPropertyState inst:state_identityDataName_45d54cbc-6466-4246-bf40-d81169cf9726 .
+inst:state_identityDataName_45d54cbc-6466-4246-bf40-d81169cf9726
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Wood" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%246M
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%246M .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%246M
+	opm:hasPropertyState inst:state_identityDataName_4321ccc7-a58a-496a-8b20-b2bc4b28d59f .
+inst:state_identityDataName_4321ccc7-a58a-496a-8b20-b2bc4b28d59f
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Wood" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24B0
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24B0 .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24B0
+	opm:hasPropertyState inst:state_identityDataName_173b4fef-2ca8-4f46-9322-5ce97d227da3 .
+inst:state_identityDataName_173b4fef-2ca8-4f46-9322-5ce97d227da3
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Wood" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24C9
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24C9 .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24C9
+	opm:hasPropertyState inst:state_identityDataName_6429dd44-5f1b-4918-a82a-7a3bd6e804be .
+inst:state_identityDataName_6429dd44-5f1b-4918-a82a-7a3bd6e804be
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Ceramic Tile" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24El
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24El .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24El
+	opm:hasPropertyState inst:state_identityDataName_264694ec-ef7a-4f58-91f7-710d78766ac7 .
+inst:state_identityDataName_264694ec-ef7a-4f58-91f7-710d78766ac7
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Ceramic Tile" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24rL
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24rL .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24rL
+	opm:hasPropertyState inst:state_identityDataName_f12521c3-2a52-48f8-85e8-98a526b2b09b .
+inst:state_identityDataName_f12521c3-2a52-48f8-85e8-98a526b2b09b
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Wood" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24y4
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24y4 .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24y4
+	opm:hasPropertyState inst:state_identityDataName_2bfa64bc-b05c-4acf-a98b-7d9a58eae3dc .
+inst:state_identityDataName_2bfa64bc-b05c-4acf-a98b-7d9a58eae3dc
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Ceramic Tile" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24Zx
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24Zx .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24Zx
+	opm:hasPropertyState inst:state_identityDataName_c3ea873d-3eb6-48c9-9802-6fea78b0e1f5 .
+inst:state_identityDataName_c3ea873d-3eb6-48c9-9802-6fea78b0e1f5
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Ceramic Tile" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24ZO
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24ZO .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24ZO
+	opm:hasPropertyState inst:state_identityDataName_947bde7e-4e42-42ee-84f1-4b72bd7e309f .
+inst:state_identityDataName_947bde7e-4e42-42ee-84f1-4b72bd7e309f
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Ceramic Tile" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24av
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24av .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24av
+	opm:hasPropertyState inst:state_identityDataName_301b9c69-dfc7-4422-95d0-8fe5434033a2 .
+inst:state_identityDataName_301b9c69-dfc7-4422-95d0-8fe5434033a2
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Wood" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvN%24cH
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24cH .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24cH
+	opm:hasPropertyState inst:state_identityDataName_66834788-f14f-42d1-bc58-5b6f5a0413d3 .
+inst:state_identityDataName_66834788-f14f-42d1-bc58-5b6f5a0413d3
+	a opm:CurrentPropertyState ;
+	schema:value "Finish Floor - Ceramic Tile" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvNYcU
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNYcU .
+inst:identityDataName_1xS3BCk291UvhgP2dvNYcU
+	opm:hasPropertyState inst:state_identityDataName_fbcd4672-25ec-4a1a-9ccf-e1758f0a9858 .
+inst:state_identityDataName_fbcd4672-25ec-4a1a-9ccf-e1758f0a9858
+	a opm:CurrentPropertyState ;
+	schema:value "150mm Exterior Slab on Grade" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:floor_1xS3BCk291UvhgP2dvNYdD
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNYdD .
+inst:identityDataName_1xS3BCk291UvhgP2dvNYdD
+	opm:hasPropertyState inst:state_identityDataName_9eb45dd9-5cf8-4d90-9f4c-84022d6f1f54 .
+inst:state_identityDataName_9eb45dd9-5cf8-4d90-9f4c-84022d6f1f54
+	a opm:CurrentPropertyState ;
+	schema:value "150mm Exterior Slab on Grade" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+
+# WINDOWS & DOORS
+inst:window_1xS3BCk291UvhgP2dvNrrP
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrrP .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrrP
+	opm:hasPropertyState inst:state_identityDataName_225fc700-0941-49b7-a39d-fdf44d0c9f39 .
+inst:state_identityDataName_225fc700-0941-49b7-a39d-fdf44d0c9f39
+	a opm:CurrentPropertyState ;
+	schema:value "4835mm x 2420mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNrv5
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrv5 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrv5
+	opm:hasPropertyState inst:state_identityDataName_cc78b3e0-fe03-4912-afa6-40b285ab9a76 .
+inst:state_identityDataName_cc78b3e0-fe03-4912-afa6-40b285ab9a76
+	a opm:CurrentPropertyState ;
+	schema:value "4835mm x 2420mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNrY1
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrY1 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrY1
+	opm:hasPropertyState inst:state_identityDataName_d1852f58-86c2-4ad6-abd6-7a8603396d9b .
+inst:state_identityDataName_d1852f58-86c2-4ad6-abd6-7a8603396d9b
+	a opm:CurrentPropertyState ;
+	schema:value "1250mm x 2010mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNrZJ
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrZJ .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrZJ
+	opm:hasPropertyState inst:state_identityDataName_08ed0f76-9d09-4d2d-9bdd-1440136e4bd2 .
+inst:state_identityDataName_08ed0f76-9d09-4d2d-9bdd-1440136e4bd2
+	a opm:CurrentPropertyState ;
+	schema:value "1250mm x 2010mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNrdW
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrdW .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrdW
+	opm:hasPropertyState inst:state_identityDataName_3a5bc407-a4fd-41f0-a686-7bf46fa65f24 .
+inst:state_identityDataName_3a5bc407-a4fd-41f0-a686-7bf46fa65f24
+	a opm:CurrentPropertyState ;
+	schema:value "750mm x 2200mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNrfE
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNrfE .
+inst:identityDataName_1xS3BCk291UvhgP2dvNrfE
+	opm:hasPropertyState inst:state_identityDataName_7e2cd298-f613-4e2b-9b91-953da8e4ac32 .
+inst:state_identityDataName_7e2cd298-f613-4e2b-9b91-953da8e4ac32
+	a opm:CurrentPropertyState ;
+	schema:value "750mm x 2200mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNoJ3
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNoJ3 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNoJ3
+	opm:hasPropertyState inst:state_identityDataName_17cd75db-ff13-4e1c-8620-8287d7737545 .
+inst:state_identityDataName_17cd75db-ff13-4e1c-8620-8287d7737545
+	a opm:CurrentPropertyState ;
+	schema:value "2800mm x 2410mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNoO%24
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNoO%24 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNoO%24
+	opm:hasPropertyState inst:state_identityDataName_96291f0e-45c6-4d82-bae4-fa349f148a02 .
+inst:state_identityDataName_96291f0e-45c6-4d82-bae4-fa349f148a02
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNo1Q
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNo1Q .
+inst:identityDataName_1xS3BCk291UvhgP2dvNo1Q
+	opm:hasPropertyState inst:state_identityDataName_7bb9ac4c-28a7-47bf-941d-a7ce5acdf94c .
+inst:state_identityDataName_7bb9ac4c-28a7-47bf-941d-a7ce5acdf94c
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNo3N
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNo3N .
+inst:identityDataName_1xS3BCk291UvhgP2dvNo3N
+	opm:hasPropertyState inst:state_identityDataName_a1b5531d-8129-473c-a9b8-e5f13d495ee1 .
+inst:state_identityDataName_a1b5531d-8129-473c-a9b8-e5f13d495ee1
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNoCx
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNoCx .
+inst:identityDataName_1xS3BCk291UvhgP2dvNoCx
+	opm:hasPropertyState inst:state_identityDataName_15a905a3-a7e4-4b27-8c8b-194de7eea267 .
+inst:state_identityDataName_15a905a3-a7e4-4b27-8c8b-194de7eea267
+	a opm:CurrentPropertyState ;
+	schema:value "2800mm x 2410mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNom4
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNom4 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNom4
+	opm:hasPropertyState inst:state_identityDataName_8940e9e5-f4dd-4d72-9dc1-de9f3ae60064 .
+inst:state_identityDataName_8940e9e5-f4dd-4d72-9dc1-de9f3ae60064
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNopD
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNopD .
+inst:identityDataName_1xS3BCk291UvhgP2dvNopD
+	opm:hasPropertyState inst:state_identityDataName_5bdc7f59-83ee-433d-8182-23248097a7ae .
+inst:state_identityDataName_5bdc7f59-83ee-433d-8182-23248097a7ae
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNos1
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNos1 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNos1
+	opm:hasPropertyState inst:state_identityDataName_ab76cab2-f4da-4aa8-8c56-84d994d24095 .
+inst:state_identityDataName_ab76cab2-f4da-4aa8-8c56-84d994d24095
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNowu
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNowu .
+inst:identityDataName_1xS3BCk291UvhgP2dvNowu
+	opm:hasPropertyState inst:state_identityDataName_95a13edf-e945-4728-8bea-5eae69cf59a2 .
+inst:state_identityDataName_95a13edf-e945-4728-8bea-5eae69cf59a2
+	a opm:CurrentPropertyState ;
+	schema:value "0762 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNoxK
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNoxK .
+inst:identityDataName_1xS3BCk291UvhgP2dvNoxK
+	opm:hasPropertyState inst:state_identityDataName_0b2081dd-017d-4f9d-88c1-3917a0554d61 .
+inst:state_identityDataName_0b2081dd-017d-4f9d-88c1-3917a0554d61
+	a opm:CurrentPropertyState ;
+	schema:value "0762 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNozF
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNozF .
+inst:identityDataName_1xS3BCk291UvhgP2dvNozF
+	opm:hasPropertyState inst:state_identityDataName_8eaa0611-eb7a-4c69-ba82-70c561aaafd9 .
+inst:state_identityDataName_8eaa0611-eb7a-4c69-ba82-70c561aaafd9
+	a opm:CurrentPropertyState ;
+	schema:value "0864 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNo%24h
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNo%24h .
+inst:identityDataName_1xS3BCk291UvhgP2dvNo%24h
+	opm:hasPropertyState inst:state_identityDataName_591cbedf-f709-4f40-b5bf-911ce96816b4 .
+inst:state_identityDataName_591cbedf-f709-4f40-b5bf-911ce96816b4
+	a opm:CurrentPropertyState ;
+	schema:value "0864 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNmlJ
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNmlJ .
+inst:identityDataName_1xS3BCk291UvhgP2dvNmlJ
+	opm:hasPropertyState inst:state_identityDataName_e7ecf66c-1d15-4396-8ddc-1e4b1b3c2f99 .
+inst:state_identityDataName_e7ecf66c-1d15-4396-8ddc-1e4b1b3c2f99
+	a opm:CurrentPropertyState ;
+	schema:value "0864 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNnH%24
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNnH%24 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNnH%24
+	opm:hasPropertyState inst:state_identityDataName_67125315-2079-48c9-986e-c22479f79f79 .
+inst:state_identityDataName_67125315-2079-48c9-986e-c22479f79f79
+	a opm:CurrentPropertyState ;
+	schema:value "0864 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNnLa
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNnLa .
+inst:identityDataName_1xS3BCk291UvhgP2dvNnLa
+	opm:hasPropertyState inst:state_identityDataName_291752a8-714c-4201-80dd-451b353e7f66 .
+inst:state_identityDataName_291752a8-714c-4201-80dd-451b353e7f66
+	a opm:CurrentPropertyState ;
+	schema:value "0864 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNnNr
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNnNr .
+inst:identityDataName_1xS3BCk291UvhgP2dvNnNr
+	opm:hasPropertyState inst:state_identityDataName_b8c2e493-c978-42e6-b88f-e10d4fd9d0a0 .
+inst:state_identityDataName_b8c2e493-c978-42e6-b88f-e10d4fd9d0a0
+	a opm:CurrentPropertyState ;
+	schema:value "0864 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvN%24je
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24je .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24je
+	opm:hasPropertyState inst:state_identityDataName_f3276e6e-c4a3-474b-a4d7-c5c5e270d032 .
+inst:state_identityDataName_f3276e6e-c4a3-474b-a4d7-c5c5e270d032
+	a opm:CurrentPropertyState ;
+	schema:value "0813 x 2420mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvN%24lY
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvN%24lY .
+inst:identityDataName_1xS3BCk291UvhgP2dvN%24lY
+	opm:hasPropertyState inst:state_identityDataName_754b252f-e231-45ea-b4a3-bb82da44a291 .
+inst:state_identityDataName_754b252f-e231-45ea-b4a3-bb82da44a291
+	a opm:CurrentPropertyState ;
+	schema:value "0813 x 2420mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNwHx
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNwHx .
+inst:identityDataName_1xS3BCk291UvhgP2dvNwHx
+	opm:hasPropertyState inst:state_identityDataName_2b3be00b-2cd7-40ec-b7cc-80cae2b271c4 .
+inst:state_identityDataName_2b3be00b-2cd7-40ec-b7cc-80cae2b271c4
+	a opm:CurrentPropertyState ;
+	schema:value "2800mm x 2410mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNwMI
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNwMI .
+inst:identityDataName_1xS3BCk291UvhgP2dvNwMI
+	opm:hasPropertyState inst:state_identityDataName_5e6d0b86-61ff-4cc7-a46f-2dce0ba95d5c .
+inst:state_identityDataName_5e6d0b86-61ff-4cc7-a46f-2dce0ba95d5c
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNwQb
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNwQb .
+inst:identityDataName_1xS3BCk291UvhgP2dvNwQb
+	opm:hasPropertyState inst:state_identityDataName_105e76e3-6e92-4f43-81e1-d605d3e7c381 .
+inst:state_identityDataName_105e76e3-6e92-4f43-81e1-d605d3e7c381
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNwSd
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNwSd .
+inst:identityDataName_1xS3BCk291UvhgP2dvNwSd
+	opm:hasPropertyState inst:state_identityDataName_0757a59e-029e-4bf1-bd4e-92fc45cbae29 .
+inst:state_identityDataName_0757a59e-029e-4bf1-bd4e-92fc45cbae29
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNwTD
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNwTD .
+inst:identityDataName_1xS3BCk291UvhgP2dvNwTD
+	opm:hasPropertyState inst:state_identityDataName_23999587-32fd-45d9-9d37-fc144d9cf2fb .
+inst:state_identityDataName_23999587-32fd-45d9-9d37-fc144d9cf2fb
+	a opm:CurrentPropertyState ;
+	schema:value "2800mm x 2410mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNw00
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNw00 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNw00
+	opm:hasPropertyState inst:state_identityDataName_744cf67d-5bfa-43aa-b0dc-04bedaccec3a .
+inst:state_identityDataName_744cf67d-5bfa-43aa-b0dc-04bedaccec3a
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNw49
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNw49 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNw49
+	opm:hasPropertyState inst:state_identityDataName_67ef2dba-e096-472e-bba2-1a730887dc34 .
+inst:state_identityDataName_67ef2dba-e096-472e-bba2-1a730887dc34
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNw5g
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNw5g .
+inst:identityDataName_1xS3BCk291UvhgP2dvNw5g
+	opm:hasPropertyState inst:state_identityDataName_ae19639a-11e9-427c-81d0-b28908c6fe0b .
+inst:state_identityDataName_ae19639a-11e9-427c-81d0-b28908c6fe0b
+	a opm:CurrentPropertyState ;
+	schema:value "819mm x 759mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNwAF
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNwAF .
+inst:identityDataName_1xS3BCk291UvhgP2dvNwAF
+	opm:hasPropertyState inst:state_identityDataName_6778b478-2897-4be1-84e7-4b821c698225 .
+inst:state_identityDataName_6778b478-2897-4be1-84e7-4b821c698225
+	a opm:CurrentPropertyState ;
+	schema:value "750mm x 2200mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNwDm
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNwDm .
+inst:identityDataName_1xS3BCk291UvhgP2dvNwDm
+	opm:hasPropertyState inst:state_identityDataName_5c5c1f15-8632-414e-88b6-4827519cd22f .
+inst:state_identityDataName_5c5c1f15-8632-414e-88b6-4827519cd22f
+	a opm:CurrentPropertyState ;
+	schema:value "750mm x 2200mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNxVS
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNxVS .
+inst:identityDataName_1xS3BCk291UvhgP2dvNxVS
+	opm:hasPropertyState inst:state_identityDataName_11156556-4790-4af6-8ca9-ef97679e54a5 .
+inst:state_identityDataName_11156556-4790-4af6-8ca9-ef97679e54a5
+	a opm:CurrentPropertyState ;
+	schema:value "1180 x 1170mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:window_1xS3BCk291UvhgP2dvNx5J
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNx5J .
+inst:identityDataName_1xS3BCk291UvhgP2dvNx5J
+	opm:hasPropertyState inst:state_identityDataName_e3d0a141-b0c5-489c-a433-1de5c827de77 .
+inst:state_identityDataName_e3d0a141-b0c5-489c-a433-1de5c827de77
+	a opm:CurrentPropertyState ;
+	schema:value "1180 x 1170mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNd%24j
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNd%24j .
+inst:identityDataName_1xS3BCk291UvhgP2dvNd%24j
+	opm:hasPropertyState inst:state_identityDataName_84dbfbd2-438f-4e76-ac66-f1b9135cb7b8 .
+inst:state_identityDataName_84dbfbd2-438f-4e76-ac66-f1b9135cb7b8
+	a opm:CurrentPropertyState ;
+	schema:value "0762 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:door_1xS3BCk291UvhgP2dvNdad
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNdad .
+inst:identityDataName_1xS3BCk291UvhgP2dvNdad
+	opm:hasPropertyState inst:state_identityDataName_0d9969a5-3472-4d31-b7ef-eb0095706d8c .
+inst:state_identityDataName_0d9969a5-3472-4d31-b7ef-eb0095706d8c
+	a opm:CurrentPropertyState ;
+	schema:value "0762 x 2032mm" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:level_1xS3BCk291UvhgP2dvNMKI
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNMKI .
+inst:identityDataName_1xS3BCk291UvhgP2dvNMKI
+	opm:hasPropertyState inst:state_identityDataName_695cb8e9-991d-413a-b535-fd1169629e79 .
+inst:state_identityDataName_695cb8e9-991d-413a-b535-fd1169629e79
+	a opm:CurrentPropertyState ;
+	schema:value "Level 1" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:level_1xS3BCk291UvhgP2dvNMQJ
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNMQJ .
+inst:identityDataName_1xS3BCk291UvhgP2dvNMQJ
+	opm:hasPropertyState inst:state_identityDataName_a7618fe0-93ba-46c0-8d26-61480c4cf4e8 .
+inst:state_identityDataName_a7618fe0-93ba-46c0-8d26-61480c4cf4e8
+	a opm:CurrentPropertyState ;
+	schema:value "Level 2" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:level_1xS3BCk291UvhgP2dvNsgp
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNsgp .
+inst:identityDataName_1xS3BCk291UvhgP2dvNsgp
+	opm:hasPropertyState inst:state_identityDataName_63ee32af-73d7-40b3-b3b3-cb8b90628b25 .
+inst:state_identityDataName_63ee32af-73d7-40b3-b3b3-cb8b90628b25
+	a opm:CurrentPropertyState ;
+	schema:value "T/FDN" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:level_1xS3BCk291UvhgP2dvNtSE
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNtSE .
+inst:identityDataName_1xS3BCk291UvhgP2dvNtSE
+	opm:hasPropertyState inst:state_identityDataName_3cc4e08f-2450-4cb0-be8e-9d3bbfec57bb .
+inst:state_identityDataName_3cc4e08f-2450-4cb0-be8e-9d3bbfec57bb
+	a opm:CurrentPropertyState ;
+	schema:value "Roof" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+
+### SPACES ###
+inst:room_1xS3BCk291UvhgP2dvNvkw
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkw .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkw
+	opm:hasPropertyState inst:state_identityDataNumber_260a2523-0323-40f2-b9e7-f1b0a875d8c9 .
+inst:state_identityDataNumber_260a2523-0323-40f2-b9e7-f1b0a875d8c9
+	a opm:CurrentPropertyState ;
+	schema:value "A102" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkw
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvkw .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvkw
+	opm:hasPropertyState inst:state_identityDataName_68d00ac4-f476-44d7-adc3-612c6070b84b .
+inst:state_identityDataName_68d00ac4-f476-44d7-adc3-612c6070b84b
+	a opm:CurrentPropertyState ;
+	schema:value "Living Room A102" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkw
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkw .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkw
+	opm:hasPropertyState inst:state_dimensionsArea_c8e96498-9a57-498c-990c-f785057a8b72 .
+inst:state_dimensionsArea_c8e96498-9a57-498c-990c-f785057a8b72
+	a opm:CurrentPropertyState ;
+	schema:value "30.14"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkw
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkw .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkw
+	opm:hasPropertyState inst:state_dimensionsVolume_7958e6f9-7ac4-4582-9651-6c1fbfc82a19 .
+inst:state_dimensionsVolume_7958e6f9-7ac4-4582-9651-6c1fbfc82a19
+	a opm:CurrentPropertyState ;
+	schema:value "71.39"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvk7
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNvk7 .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNvk7
+	opm:hasPropertyState inst:state_identityDataNumber_ab8a7e88-550d-4394-b281-a48331635707 .
+inst:state_identityDataNumber_ab8a7e88-550d-4394-b281-a48331635707
+	a opm:CurrentPropertyState ;
+	schema:value "A103" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvk7
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvk7 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvk7
+	opm:hasPropertyState inst:state_identityDataName_ee225d4d-0db6-407b-bba8-16d3cf773042 .
+inst:state_identityDataName_ee225d4d-0db6-407b-bba8-16d3cf773042
+	a opm:CurrentPropertyState ;
+	schema:value "Kitchen A103" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvk7
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNvk7 .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNvk7
+	opm:hasPropertyState inst:state_dimensionsArea_e46f5144-abda-4531-8cc6-f8f429e1c4d0 .
+inst:state_dimensionsArea_e46f5144-abda-4531-8cc6-f8f429e1c4d0
+	a opm:CurrentPropertyState ;
+	schema:value "13.9"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvk7
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvk7 .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvk7
+	opm:hasPropertyState inst:state_dimensionsVolume_9d56ad54-c8f0-4eeb-bc25-8e80790b5a8d .
+inst:state_dimensionsVolume_9d56ad54-c8f0-4eeb-bc25-8e80790b5a8d
+	a opm:CurrentPropertyState ;
+	schema:value "33.51"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvk0
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNvk0 .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNvk0
+	opm:hasPropertyState inst:state_identityDataNumber_f9b8b0de-24a9-4448-aa3a-823704169929 .
+inst:state_identityDataNumber_f9b8b0de-24a9-4448-aa3a-823704169929
+	a opm:CurrentPropertyState ;
+	schema:value "A104" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvk0
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvk0 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvk0
+	opm:hasPropertyState inst:state_identityDataName_ac45945e-9bb4-4c60-bb4d-5b302c9282a5 .
+inst:state_identityDataName_ac45945e-9bb4-4c60-bb4d-5b302c9282a5
+	a opm:CurrentPropertyState ;
+	schema:value "Bathroom 1 A104" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvk0
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNvk0 .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNvk0
+	opm:hasPropertyState inst:state_dimensionsArea_edbed1f3-35e7-4592-bbc9-44466b4c1e9c .
+inst:state_dimensionsArea_edbed1f3-35e7-4592-bbc9-44466b4c1e9c
+	a opm:CurrentPropertyState ;
+	schema:value "4"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvk0
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvk0 .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvk0
+	opm:hasPropertyState inst:state_dimensionsVolume_b39b95e3-b849-4588-97c4-925eefb81773 .
+inst:state_dimensionsVolume_b39b95e3-b849-4588-97c4-925eefb81773
+	a opm:CurrentPropertyState ;
+	schema:value "8.18"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkD
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkD .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkD
+	opm:hasPropertyState inst:state_identityDataNumber_aced9b55-ca43-4512-a9a8-30480f1d07ac .
+inst:state_identityDataNumber_aced9b55-ca43-4512-a9a8-30480f1d07ac
+	a opm:CurrentPropertyState ;
+	schema:value "A101" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkD
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvkD .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvkD
+	opm:hasPropertyState inst:state_identityDataName_496a29e2-f7ab-4a26-a908-3060bd51e453 .
+inst:state_identityDataName_496a29e2-f7ab-4a26-a908-3060bd51e453
+	a opm:CurrentPropertyState ;
+	schema:value "Foyer A101" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkD
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkD .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkD
+	opm:hasPropertyState inst:state_dimensionsArea_2832b00b-af1a-42dc-a9f7-7c6ba76ec708 .
+inst:state_dimensionsArea_2832b00b-af1a-42dc-a9f7-7c6ba76ec708
+	a opm:CurrentPropertyState ;
+	schema:value "17.94"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkD
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkD .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkD
+	opm:hasPropertyState inst:state_dimensionsVolume_07377c7a-a6f5-4c4d-b093-5cb649772eb1 .
+inst:state_dimensionsVolume_07377c7a-a6f5-4c4d-b093-5cb649772eb1
+	a opm:CurrentPropertyState ;
+	schema:value "40.24"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkK
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkK .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkK
+	opm:hasPropertyState inst:state_identityDataNumber_2b0b059d-db9a-4fbf-809c-38d8fae95446 .
+inst:state_identityDataNumber_2b0b059d-db9a-4fbf-809c-38d8fae95446
+	a opm:CurrentPropertyState ;
+	schema:value "A201" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkK
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvkK .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvkK
+	opm:hasPropertyState inst:state_identityDataName_6a5e38e5-6c21-44a2-8596-9900a4d70935 .
+inst:state_identityDataName_6a5e38e5-6c21-44a2-8596-9900a4d70935
+	a opm:CurrentPropertyState ;
+	schema:value "Hallway A201" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkK
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkK .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkK
+	opm:hasPropertyState inst:state_dimensionsArea_24b3dd35-40cf-4a6f-93fa-211ad8ac142d .
+inst:state_dimensionsArea_24b3dd35-40cf-4a6f-93fa-211ad8ac142d
+	a opm:CurrentPropertyState ;
+	schema:value "7.8"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkK
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkK .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkK
+	opm:hasPropertyState inst:state_dimensionsVolume_5076d3e2-d3a3-44d8-ba36-e7b16f402bb5 .
+inst:state_dimensionsVolume_5076d3e2-d3a3-44d8-ba36-e7b16f402bb5
+	a opm:CurrentPropertyState ;
+	schema:value "18.12"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkG
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkG .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkG
+	opm:hasPropertyState inst:state_identityDataNumber_d3954bf4-e164-4523-86c6-fb377c4ff7f2 .
+inst:state_identityDataNumber_d3954bf4-e164-4523-86c6-fb377c4ff7f2
+	a opm:CurrentPropertyState ;
+	schema:value "A204" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkG
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvkG .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvkG
+	opm:hasPropertyState inst:state_identityDataName_e4ec6477-499f-41a7-9a60-49b5efb66824 .
+inst:state_identityDataName_e4ec6477-499f-41a7-9a60-49b5efb66824
+	a opm:CurrentPropertyState ;
+	schema:value "Bathroom 2 A204" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkG
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkG .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkG
+	opm:hasPropertyState inst:state_dimensionsArea_15f87bea-b77c-41c2-b2fc-c5bd74c20d87 .
+inst:state_dimensionsArea_15f87bea-b77c-41c2-b2fc-c5bd74c20d87
+	a opm:CurrentPropertyState ;
+	schema:value "5.42"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkG
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkG .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkG
+	opm:hasPropertyState inst:state_dimensionsVolume_c9a982b7-c02d-46f5-a199-2569cb961e0b .
+inst:state_dimensionsVolume_c9a982b7-c02d-46f5-a199-2569cb961e0b
+	a opm:CurrentPropertyState ;
+	schema:value "12.24"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkT
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkT .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkT
+	opm:hasPropertyState inst:state_identityDataNumber_d44aff56-2ca0-46b0-971f-130c270bb127 .
+inst:state_identityDataNumber_d44aff56-2ca0-46b0-971f-130c270bb127
+	a opm:CurrentPropertyState ;
+	schema:value "A203" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkT
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvkT .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvkT
+	opm:hasPropertyState inst:state_identityDataName_64e805f0-e2e5-4f27-8919-61002f4afc90 .
+inst:state_identityDataName_64e805f0-e2e5-4f27-8919-61002f4afc90
+	a opm:CurrentPropertyState ;
+	schema:value "Bedroom 2 A203" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkT
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkT .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkT
+	opm:hasPropertyState inst:state_dimensionsArea_1e67576e-26dc-46b8-b767-13666d162dc2 .
+inst:state_dimensionsArea_1e67576e-26dc-46b8-b767-13666d162dc2
+	a opm:CurrentPropertyState ;
+	schema:value "26.18"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkT
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkT .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkT
+	opm:hasPropertyState inst:state_dimensionsVolume_ec1a0cc6-8a72-49bb-8a8a-38515583b507 .
+inst:state_dimensionsVolume_ec1a0cc6-8a72-49bb-8a8a-38515583b507
+	a opm:CurrentPropertyState ;
+	schema:value "56.89"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkU
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkU .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNvkU
+	opm:hasPropertyState inst:state_identityDataNumber_97d94450-8fb8-4ccc-8043-7fa2a5618eba .
+inst:state_identityDataNumber_97d94450-8fb8-4ccc-8043-7fa2a5618eba
+	a opm:CurrentPropertyState ;
+	schema:value "A202" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkU
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNvkU .
+inst:identityDataName_1xS3BCk291UvhgP2dvNvkU
+	opm:hasPropertyState inst:state_identityDataName_2d30c7cd-023d-45cd-a38e-1b8e1ce2bcc3 .
+inst:state_identityDataName_2d30c7cd-023d-45cd-a38e-1b8e1ce2bcc3
+	a opm:CurrentPropertyState ;
+	schema:value "Bedroom 1 A202" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkU
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkU .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNvkU
+	opm:hasPropertyState inst:state_dimensionsArea_e31300f6-1251-451f-afd4-cd330c5abfbd .
+inst:state_dimensionsArea_e31300f6-1251-451f-afd4-cd330c5abfbd
+	a opm:CurrentPropertyState ;
+	schema:value "26.12"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNvkU
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkU .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNvkU
+	opm:hasPropertyState inst:state_dimensionsVolume_26b89a1d-5679-41d0-a4c3-e03f8d07ec07 .
+inst:state_dimensionsVolume_26b89a1d-5679-41d0-a4c3-e03f8d07ec07
+	a opm:CurrentPropertyState ;
+	schema:value "56.89"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcNR
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNcNR .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNcNR
+	opm:hasPropertyState inst:state_identityDataNumber_991e1a22-7c37-40cc-84b3-6743fc18ef59 .
+inst:state_identityDataNumber_991e1a22-7c37-40cc-84b3-6743fc18ef59
+	a opm:CurrentPropertyState ;
+	schema:value "B102" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcNR
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNcNR .
+inst:identityDataName_1xS3BCk291UvhgP2dvNcNR
+	opm:hasPropertyState inst:state_identityDataName_0c20638a-f7ab-479c-82cb-6d445b337afe .
+inst:state_identityDataName_0c20638a-f7ab-479c-82cb-6d445b337afe
+	a opm:CurrentPropertyState ;
+	schema:value "Living Room B102" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcNR
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNcNR .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNcNR
+	opm:hasPropertyState inst:state_dimensionsArea_faa7da0d-8b24-4497-a3ad-37b5a4952630 .
+inst:state_dimensionsArea_faa7da0d-8b24-4497-a3ad-37b5a4952630
+	a opm:CurrentPropertyState ;
+	schema:value "30.14"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcNR
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcNR .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcNR
+	opm:hasPropertyState inst:state_dimensionsVolume_7d568fc9-8d1a-41f4-9f6d-50c2a66e4b76 .
+inst:state_dimensionsVolume_7d568fc9-8d1a-41f4-9f6d-50c2a66e4b76
+	a opm:CurrentPropertyState ;
+	schema:value "71.39"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOa
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOa .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOa
+	opm:hasPropertyState inst:state_identityDataNumber_c49a7330-f3a9-4f1b-b069-85c9d57c3e29 .
+inst:state_identityDataNumber_c49a7330-f3a9-4f1b-b069-85c9d57c3e29
+	a opm:CurrentPropertyState ;
+	schema:value "B103" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOa
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNcOa .
+inst:identityDataName_1xS3BCk291UvhgP2dvNcOa
+	opm:hasPropertyState inst:state_identityDataName_a921f2ef-b914-46a6-87f2-a421fa3f98c5 .
+inst:state_identityDataName_a921f2ef-b914-46a6-87f2-a421fa3f98c5
+	a opm:CurrentPropertyState ;
+	schema:value "Kitchen B103" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOa
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOa .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOa
+	opm:hasPropertyState inst:state_dimensionsArea_5ee880c1-c0a1-4428-bb56-489bbd2bb1b7 .
+inst:state_dimensionsArea_5ee880c1-c0a1-4428-bb56-489bbd2bb1b7
+	a opm:CurrentPropertyState ;
+	schema:value "13.9"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOa
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOa .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOa
+	opm:hasPropertyState inst:state_dimensionsVolume_7134cbb1-addb-41e0-a0fe-cca7f2bf9feb .
+inst:state_dimensionsVolume_7134cbb1-addb-41e0-a0fe-cca7f2bf9feb
+	a opm:CurrentPropertyState ;
+	schema:value "33.51"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOX
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOX .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOX
+	opm:hasPropertyState inst:state_identityDataNumber_36f92921-76ed-4d85-9f2f-8b58cae1f6ee .
+inst:state_identityDataNumber_36f92921-76ed-4d85-9f2f-8b58cae1f6ee
+	a opm:CurrentPropertyState ;
+	schema:value "B104" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOX
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNcOX .
+inst:identityDataName_1xS3BCk291UvhgP2dvNcOX
+	opm:hasPropertyState inst:state_identityDataName_5e576852-f9fc-403b-b38b-b77335131a0c .
+inst:state_identityDataName_5e576852-f9fc-403b-b38b-b77335131a0c
+	a opm:CurrentPropertyState ;
+	schema:value "Bathroom 1 B104" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOX
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOX .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOX
+	opm:hasPropertyState inst:state_dimensionsArea_aa981f72-c1cb-434b-a319-72b2f6d155c7 .
+inst:state_dimensionsArea_aa981f72-c1cb-434b-a319-72b2f6d155c7
+	a opm:CurrentPropertyState ;
+	schema:value "4"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOX
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOX .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOX
+	opm:hasPropertyState inst:state_dimensionsVolume_1f119b21-85c9-47e2-bb9e-49d2287dc56e .
+inst:state_dimensionsVolume_1f119b21-85c9-47e2-bb9e-49d2287dc56e
+	a opm:CurrentPropertyState ;
+	schema:value "8.18"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOY
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOY .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOY
+	opm:hasPropertyState inst:state_identityDataNumber_227f5d43-5f0b-4783-8a6a-fef27ab38433 .
+inst:state_identityDataNumber_227f5d43-5f0b-4783-8a6a-fef27ab38433
+	a opm:CurrentPropertyState ;
+	schema:value "B101" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOY
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNcOY .
+inst:identityDataName_1xS3BCk291UvhgP2dvNcOY
+	opm:hasPropertyState inst:state_identityDataName_a61a2019-794e-4073-87c4-602d5e288eee .
+inst:state_identityDataName_a61a2019-794e-4073-87c4-602d5e288eee
+	a opm:CurrentPropertyState ;
+	schema:value "Foyer B101" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOY
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOY .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOY
+	opm:hasPropertyState inst:state_dimensionsArea_e50d2a1c-368f-4614-ac59-068d95bede33 .
+inst:state_dimensionsArea_e50d2a1c-368f-4614-ac59-068d95bede33
+	a opm:CurrentPropertyState ;
+	schema:value "17.94"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOY
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOY .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOY
+	opm:hasPropertyState inst:state_dimensionsVolume_69be8876-6418-43a5-b1ba-8b4bc12f7013 .
+inst:state_dimensionsVolume_69be8876-6418-43a5-b1ba-8b4bc12f7013
+	a opm:CurrentPropertyState ;
+	schema:value "40.24"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOe
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOe .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOe
+	opm:hasPropertyState inst:state_identityDataNumber_8809e58a-a7d3-4356-bf08-0d91edc19d16 .
+inst:state_identityDataNumber_8809e58a-a7d3-4356-bf08-0d91edc19d16
+	a opm:CurrentPropertyState ;
+	schema:value "B201" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOe
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNcOe .
+inst:identityDataName_1xS3BCk291UvhgP2dvNcOe
+	opm:hasPropertyState inst:state_identityDataName_f9ad120d-a832-481b-b5b1-653a583ba28e .
+inst:state_identityDataName_f9ad120d-a832-481b-b5b1-653a583ba28e
+	a opm:CurrentPropertyState ;
+	schema:value "Hallway B201" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOe
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOe .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOe
+	opm:hasPropertyState inst:state_dimensionsArea_2b80d8de-5dc1-4cc4-8ae2-28acc562cd4a .
+inst:state_dimensionsArea_2b80d8de-5dc1-4cc4-8ae2-28acc562cd4a
+	a opm:CurrentPropertyState ;
+	schema:value "7.8"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOe
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOe .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOe
+	opm:hasPropertyState inst:state_dimensionsVolume_fe5ca976-a670-4cc2-8f44-3af316571d70 .
+inst:state_dimensionsVolume_fe5ca976-a670-4cc2-8f44-3af316571d70
+	a opm:CurrentPropertyState ;
+	schema:value "18.12"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOq
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOq .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOq
+	opm:hasPropertyState inst:state_identityDataNumber_cafc3813-8ed3-4f78-aad1-1d3f7da56a59 .
+inst:state_identityDataNumber_cafc3813-8ed3-4f78-aad1-1d3f7da56a59
+	a opm:CurrentPropertyState ;
+	schema:value "B204" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOq
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNcOq .
+inst:identityDataName_1xS3BCk291UvhgP2dvNcOq
+	opm:hasPropertyState inst:state_identityDataName_13cca38f-ffde-492a-bee2-fd128ec35061 .
+inst:state_identityDataName_13cca38f-ffde-492a-bee2-fd128ec35061
+	a opm:CurrentPropertyState ;
+	schema:value "Bathroom 2 B204" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOq
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOq .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOq
+	opm:hasPropertyState inst:state_dimensionsArea_1c8c81d5-0b48-4de2-a732-6f44228a7d24 .
+inst:state_dimensionsArea_1c8c81d5-0b48-4de2-a732-6f44228a7d24
+	a opm:CurrentPropertyState ;
+	schema:value "5.44"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOq
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOq .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOq
+	opm:hasPropertyState inst:state_dimensionsVolume_e417aa90-0362-45ba-8beb-78d16314bf0d .
+inst:state_dimensionsVolume_e417aa90-0362-45ba-8beb-78d16314bf0d
+	a opm:CurrentPropertyState ;
+	schema:value "12.3"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOn
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOn .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOn
+	opm:hasPropertyState inst:state_identityDataNumber_0c96bc38-4d8f-43b0-ad63-bb1d80226920 .
+inst:state_identityDataNumber_0c96bc38-4d8f-43b0-ad63-bb1d80226920
+	a opm:CurrentPropertyState ;
+	schema:value "B203" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOn
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNcOn .
+inst:identityDataName_1xS3BCk291UvhgP2dvNcOn
+	opm:hasPropertyState inst:state_identityDataName_e5167bab-994b-4194-811e-e613b243ec0b .
+inst:state_identityDataName_e5167bab-994b-4194-811e-e613b243ec0b
+	a opm:CurrentPropertyState ;
+	schema:value "Bedroom 2 B203" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOn
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOn .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOn
+	opm:hasPropertyState inst:state_dimensionsArea_bfedd548-2767-4c4d-a2b7-640fdc1b8162 .
+inst:state_dimensionsArea_bfedd548-2767-4c4d-a2b7-640fdc1b8162
+	a opm:CurrentPropertyState ;
+	schema:value "26.18"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOn
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOn .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOn
+	opm:hasPropertyState inst:state_dimensionsVolume_5b62a981-f5ff-47a6-b304-50178b0f81d3 .
+inst:state_dimensionsVolume_5b62a981-f5ff-47a6-b304-50178b0f81d3
+	a opm:CurrentPropertyState ;
+	schema:value "56.89"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOo
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOo .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNcOo
+	opm:hasPropertyState inst:state_identityDataNumber_e0d25451-c25f-4bdc-8cfc-2c9b0b40df1c .
+inst:state_identityDataNumber_e0d25451-c25f-4bdc-8cfc-2c9b0b40df1c
+	a opm:CurrentPropertyState ;
+	schema:value "B202" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOo
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNcOo .
+inst:identityDataName_1xS3BCk291UvhgP2dvNcOo
+	opm:hasPropertyState inst:state_identityDataName_bbc32faa-b7dc-4606-ae3a-88c12bbf778e .
+inst:state_identityDataName_bbc32faa-b7dc-4606-ae3a-88c12bbf778e
+	a opm:CurrentPropertyState ;
+	schema:value "Bedroom 1 B202" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOo
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOo .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNcOo
+	opm:hasPropertyState inst:state_dimensionsArea_9b46efbd-3488-447f-b384-7630dda4dc0d .
+inst:state_dimensionsArea_9b46efbd-3488-447f-b384-7630dda4dc0d
+	a opm:CurrentPropertyState ;
+	schema:value "26.12"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNcOo
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOo .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNcOo
+	opm:hasPropertyState inst:state_dimensionsVolume_1f860ac4-785c-484c-a38b-67504ed0fef6 .
+inst:state_dimensionsVolume_1f860ac4-785c-484c-a38b-67504ed0fef6
+	a opm:CurrentPropertyState ;
+	schema:value "56.89"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNdjF
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNdjF .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNdjF
+	opm:hasPropertyState inst:state_identityDataNumber_0a53cdd9-f520-4359-8912-94db0507468c .
+inst:state_identityDataNumber_0a53cdd9-f520-4359-8912-94db0507468c
+	a opm:CurrentPropertyState ;
+	schema:value "A205" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNdjF
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNdjF .
+inst:identityDataName_1xS3BCk291UvhgP2dvNdjF
+	opm:hasPropertyState inst:state_identityDataName_d4f55f0d-6fd4-4967-a8d2-c6a2c9b86299 .
+inst:state_identityDataName_d4f55f0d-6fd4-4967-a8d2-c6a2c9b86299
+	a opm:CurrentPropertyState ;
+	schema:value "Utility A205" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNdjF
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNdjF .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNdjF
+	opm:hasPropertyState inst:state_dimensionsArea_c7d23b2b-e5f5-455d-a4bb-0ea88f06158b .
+inst:state_dimensionsArea_c7d23b2b-e5f5-455d-a4bb-0ea88f06158b
+	a opm:CurrentPropertyState ;
+	schema:value "1.75"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNdjF
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNdjF .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNdjF
+	opm:hasPropertyState inst:state_dimensionsVolume_0e54d50f-3f43-4146-b732-bbeb418e1c4a .
+inst:state_dimensionsVolume_0e54d50f-3f43-4146-b732-bbeb418e1c4a
+	a opm:CurrentPropertyState ;
+	schema:value "3.67"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNdjS
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNdjS .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNdjS
+	opm:hasPropertyState inst:state_identityDataNumber_bcbfed22-bfd0-4cc9-a736-7996a9a8fce3 .
+inst:state_identityDataNumber_bcbfed22-bfd0-4cc9-a736-7996a9a8fce3
+	a opm:CurrentPropertyState ;
+	schema:value "B205" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNdjS
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNdjS .
+inst:identityDataName_1xS3BCk291UvhgP2dvNdjS
+	opm:hasPropertyState inst:state_identityDataName_3efa6239-9cb3-4584-bc5a-81ff97fde0c7 .
+inst:state_identityDataName_3efa6239-9cb3-4584-bc5a-81ff97fde0c7
+	a opm:CurrentPropertyState ;
+	schema:value "Utility B205" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNdjS
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNdjS .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNdjS
+	opm:hasPropertyState inst:state_dimensionsArea_740b251d-0a4b-42c2-a898-015572829c50 .
+inst:state_dimensionsArea_740b251d-0a4b-42c2-a898-015572829c50
+	a opm:CurrentPropertyState ;
+	schema:value "1.73"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNdjS
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNdjS .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNdjS
+	opm:hasPropertyState inst:state_dimensionsVolume_0f08761a-1818-4bb2-8f70-c3a5dd3ddfea .
+inst:state_dimensionsVolume_0f08761a-1818-4bb2-8f70-c3a5dd3ddfea
+	a opm:CurrentPropertyState ;
+	schema:value "3.61"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNb9h
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNb9h .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNb9h
+	opm:hasPropertyState inst:state_identityDataNumber_d44673ce-ae36-4da9-a204-61ed52bb3241 .
+inst:state_identityDataNumber_d44673ce-ae36-4da9-a204-61ed52bb3241
+	a opm:CurrentPropertyState ;
+	schema:value "A105" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNb9h
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNb9h .
+inst:identityDataName_1xS3BCk291UvhgP2dvNb9h
+	opm:hasPropertyState inst:state_identityDataName_4c0d8ec8-85ad-4a8d-af65-732d7832dd70 .
+inst:state_identityDataName_4c0d8ec8-85ad-4a8d-af65-732d7832dd70
+	a opm:CurrentPropertyState ;
+	schema:value "Stair A105" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNb9h
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNb9h .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNb9h
+	opm:hasPropertyState inst:state_dimensionsArea_11fcb3af-1f09-4155-a0b2-e112755f5fb0 .
+inst:state_dimensionsArea_11fcb3af-1f09-4155-a0b2-e112755f5fb0
+	a opm:CurrentPropertyState ;
+	schema:value "4.92"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNb9h
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNb9h .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNb9h
+	opm:hasPropertyState inst:state_dimensionsVolume_8ca90781-9144-451f-9bca-41862abcfa33 .
+inst:state_dimensionsVolume_8ca90781-9144-451f-9bca-41862abcfa33
+	a opm:CurrentPropertyState ;
+	schema:value "20.8"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNbEa
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNbEa .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNbEa
+	opm:hasPropertyState inst:state_identityDataNumber_235a6efa-f272-41cc-b146-cab47463ef35 .
+inst:state_identityDataNumber_235a6efa-f272-41cc-b146-cab47463ef35
+	a opm:CurrentPropertyState ;
+	schema:value "B105" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNbEa
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNbEa .
+inst:identityDataName_1xS3BCk291UvhgP2dvNbEa
+	opm:hasPropertyState inst:state_identityDataName_4e89b404-47cd-4dd9-9edf-c0cc2a4203f5 .
+inst:state_identityDataName_4e89b404-47cd-4dd9-9edf-c0cc2a4203f5
+	a opm:CurrentPropertyState ;
+	schema:value "Room B105" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNbEa
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNbEa .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNbEa
+	opm:hasPropertyState inst:state_dimensionsArea_5ebc2fdc-e48e-4aa2-baaf-7f2ba3cb1fd3 .
+inst:state_dimensionsArea_5ebc2fdc-e48e-4aa2-baaf-7f2ba3cb1fd3
+	a opm:CurrentPropertyState ;
+	schema:value "4.92"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNbEa
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNbEa .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNbEa
+	opm:hasPropertyState inst:state_dimensionsVolume_69af631e-4c11-4df1-972b-a4a7aeceb9f1 .
+inst:state_dimensionsVolume_69af631e-4c11-4df1-972b-a4a7aeceb9f1
+	a opm:CurrentPropertyState ;
+	schema:value "20.8"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNbq0
+	props:identityDataNumber inst:identityDataNumber_1xS3BCk291UvhgP2dvNbq0 .
+inst:identityDataNumber_1xS3BCk291UvhgP2dvNbq0
+	opm:hasPropertyState inst:state_identityDataNumber_5d2149c7-3bb4-4c36-892a-f197395112cf .
+inst:state_identityDataNumber_5d2149c7-3bb4-4c36-892a-f197395112cf
+	a opm:CurrentPropertyState ;
+	schema:value "R301" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNbq0
+	props:identityDataName inst:identityDataName_1xS3BCk291UvhgP2dvNbq0 .
+inst:identityDataName_1xS3BCk291UvhgP2dvNbq0
+	opm:hasPropertyState inst:state_identityDataName_2d86e43c-2595-4bdf-8ee2-332a8e7a3799 .
+inst:state_identityDataName_2d86e43c-2595-4bdf-8ee2-332a8e7a3799
+	a opm:CurrentPropertyState ;
+	schema:value "Roof R301" ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNbq0
+	props:dimensionsArea inst:dimensionsArea_1xS3BCk291UvhgP2dvNbq0 .
+inst:dimensionsArea_1xS3BCk291UvhgP2dvNbq0
+	opm:hasPropertyState inst:state_dimensionsArea_297a4cba-3e88-4852-91f4-085f9ebd2f88 .
+inst:state_dimensionsArea_297a4cba-3e88-4852-91f4-085f9ebd2f88
+	a opm:CurrentPropertyState ;
+	schema:value "145.72"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .
+
+inst:room_1xS3BCk291UvhgP2dvNbq0
+	props:dimensionsVolume inst:dimensionsVolume_1xS3BCk291UvhgP2dvNbq0 .
+inst:dimensionsVolume_1xS3BCk291UvhgP2dvNbq0
+	opm:hasPropertyState inst:state_dimensionsVolume_abc87208-2c88-40f3-a772-b89bad54da31 .
+inst:state_dimensionsVolume_abc87208-2c88-40f3-a772-b89bad54da31
+	a opm:CurrentPropertyState ;
+	schema:value "405.45"^^xsd:decimal ;
+	prov:generatedAtTime "2018-09-07T10:58:34Z"^^xsd:dateTime .

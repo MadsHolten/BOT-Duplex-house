@@ -1,0 +1,74 @@
+@prefix props:	<https://w3id.org/props#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bot:	<https://w3id.org/bot#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:		<https://example.org/> .
+@prefix inst:	<https://172.16.10.122:8080/projects/1001/> .
+
+# WALLTYPES
+inst:Curtain_Wall
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Curtain Wall" .
+inst:Exterior_-_Brick_on_Mtl._Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - Brick on Mtl. Stud" .
+inst:Retaining_-_Concrete_300mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Retaining - Concrete (300mm)" .
+inst:Exterior_Glazing
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior Glazing" .
+inst:Storefront
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Storefront" .
+inst:Exterior_-_Insul_Panel_Over_Brick_w_Metal_Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - Insul Panel Over Brick w Metal Stud" .
+inst:Interior_-_Partition_92mm_Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - Partition (92mm Stud)" .
+inst:Interior_-_Plumbing_152mm_Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - Plumbing (152mm Stud)" .
+inst:Interior_-_Furring_38_mm_Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - Furring (38 mm Stud)" .
+inst:Interior_-_Rated_1-HR_92mm_Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - Rated 1-HR (92mm Stud)" .
+inst:Interior_-_CMU_Rated_2-HR
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - CMU Rated 2-HR" .
+inst:Interior_-_Toilet_Partition_25mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - Toilet Partition (25mm)" .
+inst:Party_Wall_-_CMU_Residential_Unit_Dimising_Wall
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Party Wall - CMU Residential Unit Dimising Wall" .
+inst:Foundation_-_Concrete_264mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Foundation - Concrete (264mm)" .
+inst:Foundation_-_Concrete_350mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Foundation - Concrete (350mm)" .
+inst:Foundation_-_Concrete_417mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Foundation - Concrete (417mm)" .
+inst:Exterior_-_Brick_on_Block
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - Brick on Block" .
+inst:Exterior_-_Insul_Panel_on_Mtl._Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - Insul Panel on Mtl. Stud" .
+inst:Foundation_-_Concrete_300mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Foundation - Concrete (300mm)" .
+inst:Chain_Link_Fence
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Chain Link Fence" .
+inst:Interior_-_Furring_152_mm_Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - Furring (152 mm Stud)" .
+inst:Foundation_-_Concrete_435mm
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Foundation - Concrete (435mm)" .

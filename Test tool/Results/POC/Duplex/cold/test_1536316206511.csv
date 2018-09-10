@@ -1,0 +1,9 @@
+Profile: SL
+"Get all spaces", "0.0056999999999999985"
+"Insert dummy heating demands", "0.07490000000000001"
+"Query areas and heating demands", "1.0120999999999998"
+"Insert dummy heaters", "0.053799999999999994"
+"Query heating areas, heating demands, heaters and their output", "1.0149000000000001"
+"Comparing heating demand to heat output", "0.10019999999999998"
+"Revise dummy heating demands", "0.0223"
+"Finding spaces where the heating demand is not fulfilled", "0.09789999999999999"

@@ -1,0 +1,19 @@
+Profile: SL
+Means
+"Get all spaces and the latest state of their names", "0.0063"
+"Insert dummy heating demands", "0.016400000000000005"
+"Query areas and heating demands", "0.11419999999999994"
+"Insert dummy heaters", "0.013900000000000001"
+"Query heating areas, heating demands, heaters and their output", "0.2773"
+"Comparing heating demand to heat output", "0.013199999999999998"
+"Revise dummy heating demands", "0.031700000000000006"
+"Finding spaces where the heating demand is not fulfilled", "0.013300000000000001"
+Mins
+"Get all spaces and the latest state of their names", "0.005"
+"Insert dummy heating demands", "0.008"
+"Query areas and heating demands", "0.012"
+"Insert dummy heaters", "0.008"
+"Query heating areas, heating demands, heaters and their output", "0.164"
+"Comparing heating demand to heat output", "0.008"
+"Revise dummy heating demands", "0.007"
+"Finding spaces where the heating demand is not fulfilled", "0.007"
